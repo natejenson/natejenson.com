@@ -1,9 +1,9 @@
-package com.example.service;
+package com.natejenson.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.model.Person;
+import com.natejenson.model.Person;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
