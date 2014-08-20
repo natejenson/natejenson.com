@@ -23,10 +23,10 @@
     
 	<title>Nate M. Jenson</title>
 
-  </head>
-  <body>
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-
+  	</head>
+  	<body>
+	<div id="wrap">
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,12 +47,50 @@
         </div><!--/.nav-collapse --> 
       </div>
       
-    </div>
+	</div>
 
-    <div class="container">
-        <p class="lead">Undergoing development...We'll be back soon!</p>
-    </div><!-- /.container -->
+    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+	    <div class="carousel-inner">
+	        <div class="item active">
+	        <img src="resources/valley.jpg" alt="" class="img-responsive">
+	           <div class="carousel-caption">
+	           		<h1>Nate Jenson</h1>
+	           </div>
+	        </div>
+	    </div>
+    </div>
     
+    <div id="about" class="container-fluid">
+	    <div class="row"> <!-- Give this div your desired background color -->
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <h1>About Me</h1>
+				    	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				    	Nulla vehicula, ante in elementum varius, dui elit fringilla libero, 
+				    	id pretium felis quam in diam. Nunc non turpis viverra, molestie 
+				    	nibh et, aliquam felis. Vestibulum ut posuere est. Aenean ut placerat 
+				    	enim. Mauris justo ligula, vestibulum et suscipit vel, feugiat at odio. 
+				    	Maecenas porta sed urna et faucibus. Donec ultrices felis diam, sit amet 
+				    	blandit enim eleifend eget. Nunc sapien ipsum, elementum nec ultricies id, 
+				    	dapibus in quam. Mauris rutrum mi eget velit placerat, ut vestibulum risus commodo. 
+				    	Proin posuere tellus nec felis mollis fermentum.
+				    	</p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+	<div id="push"></div>
+	</div> <!-- /wrap -->
+	
+	<!-- footer -->
+    <div id="footer">
+      <div class="container">
+        <p class="muted footerMsg">Connect with me on <a href="http://www.linkedin.com/pub/nate-jenson/5a/820/820/">LinkedIn</a></p>
+      </div>
+    </div>  <!-- /footer -->
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
