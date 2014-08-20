@@ -1,6 +1,18 @@
 body {
 	height: 100%;
 }
+.carousel.slide{
+    max-width: 1600px; //the largest you want the image to stretch
+    min-width: 900px; //the "container" width 
+    overflow: hidden;
+}
+
+.carousel-inner{
+   width: 1600px;
+   left: 50%;
+   margin-left: -800px;
+   margin-top: -400px;
+}
 #main-carousel h1{
 	font-family: 'Droid Sans', sans-serif;
 	margin-top: 0px;
