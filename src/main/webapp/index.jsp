@@ -52,7 +52,7 @@
     <div id="main-carousel" class="carousel slide" data-ride="carousel">
 	    <div class="carousel-inner">
 	        <div class="item active">
-	        <img src="resources/valley.jpg" alt="" class="img-responsive">
+	        <img src="resources/valley.jpg" alt="">
 	           <div class="carousel-caption">
 	           		<h1>Nate Jenson</h1>
 	           </div>
