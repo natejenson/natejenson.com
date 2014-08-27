@@ -1,16 +1,19 @@
 body {
 	height: 100%;
+	padding-top: 50px;
 }
 
 /* CAROUSEL
 -------------------------------------------------- */
 .carousel {
  	height: 500px;
- 	margin-bottom: 60px;
 }
 
-.carousel-caption {
+.carousel-caption{
 	z-index: 9;
+  	display:table-cell;
+ 	vertical-align:middle;
+ 	padding-bottom: 120px;
 }
 
 .carousel-caption h1 {
@@ -22,7 +25,6 @@ body {
 
 .carousel .item {
  	height: 500px;
-	background-color: #777;
 }
 .carousel-inner > .item > img {
   	position: absolute;
@@ -35,17 +37,17 @@ body {
 /* CAROUSEL RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 979px) {
+@media all {
 	.carousel-caption h1 {
-		font-size: 150px;
-	}
-}
-@media (min-width: 767px) {
-	.carousel-caption h1 {
-	  font-size: 100px;
+		font-size: 120px;
 	}
 }
 @media (max-width: 767px) {
+	.carousel-caption h1 {
+	  	font-size: 100px;
+	}
+}
+@media (max-width: 450px) {
 	.carousel-caption h1 {
 	    font-size: 80px;
 	  }

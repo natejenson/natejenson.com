@@ -52,14 +52,14 @@
     <div id="main-carousel" class="carousel slide" data-ride="carousel">
 	    <div class="carousel-inner">
 	        <div class="item active">
-	        <img src="resources/valley.jpg" alt="">
-	           <div class="carousel-caption">
+	        	<img src="resources/valley.jpg" alt="">
+	           	<div class="carousel-caption">
 	           		<h1>Nate Jenson</h1>
 	           </div>
 	        </div>
 	    </div>
     </div>
-    
+    <div class="alert alert-info" role="alert">Heads up! This page is undergoing maintenance, check back soon!</div>
     <div id="about" class="container-fluid">
 	    <div class="row"> <!-- Give this div your desired background color -->
 	        <div class="container">
