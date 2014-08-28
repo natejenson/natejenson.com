@@ -88,7 +88,7 @@
 	<!-- footer -->
     <div id="footer">
       <div class="container">
-        <p class="muted footerMsg">Connect with me on <a href="http://www.linkedin.com/pub/nate-jenson/5a/820/820/">LinkedIn</a></p>
+        <p class="muted footerMsg">&copy; Nate Jenson 2014</p>
       </div>
     </div>  <!-- /footer -->
     
