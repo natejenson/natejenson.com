@@ -1,6 +1,8 @@
 body {
 	height: 100%;
 	padding-top: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px
 }
 
 /* CAROUSEL
@@ -12,12 +14,16 @@ body {
 	z-index: 9;
   	display:table-cell;
  	vertical-align:middle;
- 	padding-bottom: 120px;
+ 	padding-top: 100px;
+ 	padding-bottom: 5em;
+ 	right: 0px;
+ 	left: 0px;
 }
 .carousel-caption h1 {
 	margin: 0;
    	line-height: 1.25;
    	color: #fff;
+   	font-weight: 900;
    	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
 .carousel .item {
@@ -46,18 +52,45 @@ body {
 @media (max-width: 450px) {
 	.carousel-caption h1 {
 	    font-size: 80px;
-	  }
+	}
 }
 
 
 /* About
 -------------------------------------------------- */
-#about h1{
-	color: #000;
-	font-size: 20px;
+
+
+/* Work
+-------------------------------------------------- */
+
+
+/* Featurettes 
+-------------------------------------------------- */
+section {
+    padding: 60px 0px;
 }
-#about .container-fluid{
-	background-color: #63D1F4;
+
+.painted {
+	background: #128670;
+}
+.painted > div {
+	color: #fff;
+}
+.painted .text-muted {
+	color: #fff;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+
+.center {
+	text-align: center;
 }
 
 /* Footer
@@ -70,15 +103,12 @@ body {
 	/* Negative indent footer by it's height */
 	margin: 0 auto -60px;
 }
-/* Set the fixed height of the footer here */
 #push,
 #footer {
-	/* remove this later, just giving the page some height for now */
-	margin-top: 400px;
   	height: 60px;
 }
 #footer {
-  	background-color: #f5f5f5;
+  	background-color: #f5f5ff;
 }
 @media (max-width: 767px) {
   #footer {
