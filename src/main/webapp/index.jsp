@@ -59,7 +59,7 @@
 			</div>
 		</div>
 
-		<!-- CAROUSEL -->
+		<!-- CAROUSEL 
 
 		<div id="main-carousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
@@ -73,6 +73,15 @@
 				</div>
 			</div>
 		</div>
+		-->
+
+		<section id="header" class="painted-accent">
+			<div class="container">
+				<h2>Hello, I am</h2>
+				<h1>Nate Jenson</h1>
+				<h3>Computer Science &middot; Gustavus Adolphus College '15</h3>
+			</div>
+		</section>
 
 		<!-- ABOUT -->
 
@@ -196,7 +205,7 @@
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h4 class="timeline-title">Software Development Intern</h4>
+								<h3 class="timeline-title">Software Development Intern</h3>
 								<p>
 									<small><i class="glyphicon glyphicon-time"></i> Proto
 										Labs, Inc. &middot; Jun - Aug 2014, Jan 2014, Jun - Aug 2013</small>
