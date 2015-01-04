@@ -66,6 +66,9 @@ body {
 
 /* About
 -------------------------------------------------- */
+.progress-bar-container > .progress{
+	padding: 0;
+}
 
 
 /* Work
