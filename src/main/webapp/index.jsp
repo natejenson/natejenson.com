@@ -85,17 +85,9 @@
 					</div>
 					<div class="col-md-10">
 						<h1>About Me</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nulla vehicula, ante in elementum varius, dui elit fringilla
-							libero, id pretium felis quam in diam. Nunc non turpis viverra,
-							molestie nibh et, aliquam felis. Vestibulum ut posuere est.
-							Aenean ut placerat enim. Mauris justo ligula, vestibulum et
-							suscipit vel, feugiat at odio. Maecenas porta sed urna et
-							faucibus. Donec ultrices felis diam, sit amet blandit enim
-							eleifend eget. Nunc sapien ipsum, elementum nec ultricies id,
-							dapibus in quam. Mauris rutrum mi eget velit placerat, ut
-							vestibulum risus commodo. Proin posuere tellus nec felis mollis
-							fermentum.</p>
+						<p>My name is Nate Jenson and I enjoy brainstorming, discovering, and developing solutions. I am a team-oriented 
+						problem-solver with a passion for success. My professional interests arise from my passion for Software Engineering
+						and my desire to innovate. In my spare time, I enjoy sitting back to watch a good documentary or lacing up my skates to play some hockey.</p>
 					</div>
 				</div>
 			</div>
@@ -170,6 +162,7 @@
 										Labs, Inc. &middot; Jun - Aug 2014, Jan 2014, Jun - Aug 2013</small>
 								</p>
 							</div>
+							<hr/>
 							<div class="timeline-body">
 								<p>
 									&middot; Utilized an Agile development process with the
@@ -195,6 +188,7 @@
 										Gustavus Adolphus College &middot; Sept 2012 - Now </small>
 								</p>
 							</div>
+							<hr/>
 							<div class="timeline-body">
 								<p>
 									&middot; Maintain clear communication with Computer Science
@@ -218,6 +212,7 @@
 										Gustavus Adolphus College &middot; Sept 2012 - May 2014 </small>
 								</p>
 							</div>
+							<hr/>
 							<div class="timeline-body">
 								<p>
 									&middot; Planed and organized social and academic activities
@@ -243,6 +238,7 @@
 										Dee Delivery Service, Inc. &middot; Jun 2010 - Aug 2010 </small>
 								</p>
 							</div>
+							<hr/>
 							<div class="timeline-body">
 								<p>
 									&middot; Developed a base knowledge of C# through numerous
@@ -263,17 +259,6 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1>Education</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Nulla vehicula, ante in elementum varius, dui elit fringilla
-							libero, id pretium felis quam in diam. Nunc non turpis viverra,
-							molestie nibh et, aliquam felis. Vestibulum ut posuere est.
-							Aenean ut placerat enim. Mauris justo ligula, vestibulum et
-							suscipit vel, feugiat at odio. Maecenas porta sed urna et
-							faucibus. Donec ultrices felis diam, sit amet blandit enim
-							eleifend eget. Nunc sapien ipsum, elementum nec ultricies id,
-							dapibus in quam. Mauris rutrum mi eget velit placerat, ut
-							vestibulum risus commodo. Proin posuere tellus nec felis mollis
-							fermentum.</p>
 					</div>
 				</div>
 			</div>
@@ -285,22 +270,23 @@
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h4 class="timeline-title">Bachelor of Arts in Computer
-									Science</h4>
+								<h3 class="timeline-title">Bachelor of Arts in Computer
+									Science</h3>
 								<h5 class="timeline-title">Minor in Mathematics</h5>
 								<p>
 									<small><i class="glyphicon glyphicon-time"></i>
 										Gustavus Adolphus College, MN &middot; Expected: May 2015</small>
 								</p>
 							</div>
+							<hr/>
 							<div class="timeline-body">
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis
-									adipiscings elitis. Pra lá , depois divoltis porris, paradis.
-									Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-									nisi eros vermeio, in elementis mé pra quem é amistosis quis
-									leo. Manduma pindureta quium dia nois paga. Sapien in monti
-									palavris qui num significa nadis i pareci latim. Interessantiss
-									quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+								<h4>Involvement</h4>
+								<ul>
+									<li>Math and Computer Science Club, President</li>
+									<li>Epsilon Pi Alpha Fraternity, Co-President</li>
+									<li>Student Senate Cabinet, Technologies Director</li>
+									<li>Resident Assistant</li>
+								</ul>
 							</div>
 						</div>
 					</li>
@@ -317,23 +303,6 @@
 								</p>
 							</div>
 							<div class="timeline-body">
-								<p>Mussum ipsum cacilds, vidis litro abertis. Consetis
-									adipiscings elitis. Pra lá , depois divoltis porris, paradis.
-									Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
-									nisi eros vermeio, in elementis mé pra quem é amistosis quis
-									leo. Manduma pindureta quium dia nois paga. Sapien in monti
-									palavris qui num significa nadis i pareci latim. Interessantiss
-									quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-								<p>Suco de cevadiss, é um leite divinis, qui tem lupuliz,
-									matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula
-									ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis
-									tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere
-									pulvinar pellentesque nibh ullamcorper. Pharetra in mattis
-									molestie, volutpat elementum justo. Aenean ut ante turpis.
-									Pellentesque laoreet mé vel lectus scelerisque interdum cursus
-									velit auctor. Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit. Etiam ac mauris lectus, non scelerisque augue.
-									Aenean justo massa.</p>
 							</div>
 						</div>
 					</li>
