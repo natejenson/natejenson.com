@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="resources/favicon.png" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
@@ -59,21 +60,7 @@
 			</div>
 		</div>
 
-		<!-- CAROUSEL 
-
-		<div id="main-carousel" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="resources/header.png" alt="">
-					<div class="carousel-caption">
-						<h2>Hello, I am</h2>
-						<h1>Nate Jenson</h1>
-						<h3>Computer Science &middot; Gustavus Adolphus College '15</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		-->
+		<!-- HEADER -->
 
 		<section id="header" class="painted-accent">
 			<div class="container">
@@ -96,7 +83,7 @@
 						<h1>About Me</h1>
 						<p>My name is Nate Jenson and I enjoy brainstorming,
 							discovering, and developing solutions. I am a team-oriented
-							problem-solver with a passion for success. My professional
+							problem-solver with a drive for success. My professional
 							interests arise from my passion for Software Engineering and my
 							desire to innovate. In my spare time, I enjoy sitting back to
 							watch a good documentary or lacing up my skates to play some
@@ -104,43 +91,46 @@
 					</div>
 				</div>
 			</div>
-			<br/>
+			<br />
 			<div class="container progress-bar-container">
-				<div class="col-md-2"> C#
-				</div>
+				<div class="col-md-2">C#</div>
 				<div class="progress col-md-10">
-					<div class="progress-bar progress-bar-success progress-bar-striped active"
+					<div
+						class="progress-bar progress-bar-success progress-bar-striped active"
 						role="progressbar" aria-valuenow="60" aria-valuemin="0"
-						aria-valuemax="100" style="width: 60%">
-
-					</div>
+						aria-valuemax="100" style="width: 60%"></div>
+						<span class="sr-only">60%</span>
 				</div>
-				<div class="col-md-2"> Java
-				</div>
+				<div class="col-md-2">Java</div>
 				<div class="progress col-md-10">
-					<div class="progress-bar progress-bar-danger progress-bar-striped active"
+					<div
+						class="progress-bar progress-bar-danger progress-bar-striped active"
 						role="progressbar" aria-valuenow="40" aria-valuemin="0"
-						aria-valuemax="100" style="width: 40%">
-					</div>
+						aria-valuemax="100" style="width: 40%"></div>
+						<span class="sr-only">40%</span>
 				</div>
-				<div class="col-md-2"> Python
-				</div>
+				<div class="col-md-2">Python</div>
 				<div class="progress col-md-10">
-					<div class="progress-bar progress-bar-warning progress-bar-striped active"
+					<div
+						class="progress-bar progress-bar-warning progress-bar-striped active"
 						role="progressbar" aria-valuenow="50" aria-valuemin="0"
-						aria-valuemax="100" style="width: 50%">
-					</div>
+						aria-valuemax="100" style="width: 50%"></div>
+						<span class="sr-only">50%</span>
 				</div>
-				<div class="col-md-2"> JQuery
-				</div>
+				<div class="col-md-2">JQuery</div>
 				<div class="progress col-md-10">
-					<div class="progress-bar progress-bar-info progress-bar-striped active"
+					<div
+						class="progress-bar progress-bar-info progress-bar-striped active"
 						role="progressbar" aria-valuenow="25" aria-valuemin="0"
-						aria-valuemax="100" style="width: 25%">
-					</div>
+						aria-valuemax="100" style="width: 25%"></div>
+						<span class="sr-only">25%</span>
 				</div>
 			</div>
 		</section>
+
+		<div class="col-sm-12 center">
+			<i class="fa fa-wifi fa-5x"></i>
+		</div>
 
 		<!-- Projects -->
 
@@ -156,31 +146,35 @@
 							data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#media-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#media-carousel" data-slide-to="0"
+									class="active"></li>
 								<li data-target="#media-carousel" data-slide-to="1"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="item active">
-									<img src="resources/earthquakeMapOutput.png" alt="Earthquake Mapper">
+									<img src="resources/earthquakeMapOutput.png"
+										alt="Earthquake Mapper">
 									<div class="carousel-caption">
 										<h2>Earthquake Mapper - Python</h2>
 									</div>
 								</div>
 								<div class="item">
-									<img src="resources/gravitationalMovement.png" alt="Planets in Motion">
+									<img src="resources/gravitationalMovement.png"
+										alt="Planets in Motion">
 									<div class="carousel-caption">
 										<h2>Gravity Simulator - Java</h2>
 									</div>
 								</div>
 							</div>
-							<a class="left carousel-control" href="#media-carousel" role="button" data-slide="prev">
-					        	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					        	<span class="sr-only">Previous</span>
-					      	</a>
-					      	<a class="right carousel-control" href="#media-carousel" role="button" data-slide="next">
-					        	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					        	<span class="sr-only">Next</span>
-					      	</a>
+							<a class="left carousel-control" href="#media-carousel"
+								role="button" data-slide="prev"> <span
+								class="glyphicon glyphicon-chevron-left black" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a> <a class="right carousel-control" href="#media-carousel"
+								role="button" data-slide="next"> <span
+								class="glyphicon glyphicon-chevron-right black" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -191,6 +185,9 @@
 
 		<section id="work-history" class="painted">
 			<div class="container">
+				<div class="col-sm-12 center">
+					<i class="fa fa-group fa-5x"></i>
+				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<h1>Work History</h1>
@@ -211,7 +208,7 @@
 										Labs, Inc. &middot; Jun - Aug 2014, Jan 2014, Jun - Aug 2013</small>
 								</p>
 							</div>
-							<hr/>
+							<hr />
 							<div class="timeline-body">
 								<p>
 									&middot; Utilized an Agile development process with the
@@ -237,7 +234,7 @@
 										Gustavus Adolphus College &middot; Sept 2012 - Now </small>
 								</p>
 							</div>
-							<hr/>
+							<hr />
 							<div class="timeline-body">
 								<p>
 									&middot; Maintain clear communication with Computer Science
@@ -261,7 +258,7 @@
 										Gustavus Adolphus College &middot; Sept 2012 - May 2014 </small>
 								</p>
 							</div>
-							<hr/>
+							<hr />
 							<div class="timeline-body">
 								<p>
 									&middot; Planed and organized social and academic activities
@@ -287,7 +284,7 @@
 										Dee Delivery Service, Inc. &middot; Jun 2010 - Aug 2010 </small>
 								</p>
 							</div>
-							<hr/>
+							<hr />
 							<div class="timeline-body">
 								<p>
 									&middot; Developed a base knowledge of C# through numerous
@@ -305,6 +302,9 @@
 
 		<section id="education" class="section">
 			<div class="container">
+				<div class="col-sm-12 center">
+					<i class="fa fa-graduation-cap fa-5x"></i>
+				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<h1>Education</h1>
@@ -327,7 +327,7 @@
 										Gustavus Adolphus College, MN &middot; Expected: May 2015</small>
 								</p>
 							</div>
-							<hr/>
+							<hr />
 							<div class="timeline-body">
 								<h4>Involvement</h4>
 								<ul>
@@ -351,8 +351,7 @@
 										Rapids-Rice High School, MN &middot; May 2011 </small>
 								</p>
 							</div>
-							<div class="timeline-body">
-							</div>
+							<div class="timeline-body"></div>
 						</div>
 					</li>
 				</ul>
@@ -366,12 +365,17 @@
 						<h1>Connect with me.</h1>
 						<br />
 					</div>
-					<div class="col-sm-6 center">
+					<div class="col-sm-4 center">
 						<a href="http://www.linkedin.com/pub/nate-jenson/5a/820/820/">
 							<i class="fa fa-linkedin-square fa-5x fa-inverse"></i>
 						</a>
 					</div>
-					<div class="col-sm-6 center">
+					<div class="col-sm-4 center">
+						<a href="http://www.github.com/natejenson"> <i
+							class="fa fa-github-square fa-5x fa-inverse"></i>
+						</a>
+					</div>
+					<div class="col-sm-4 center">
 						<address>
 							<a href="mailto:nate.m.jenson@gmail.com" target="_blank"><i
 								class="fa fa-envelope-square fa-5x fa-inverse"></i></a>
