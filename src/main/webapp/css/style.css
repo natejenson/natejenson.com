@@ -68,6 +68,10 @@ body {
 
 /* Featurettes 
 -------------------------------------------------- */
+.navbar-brand{
+	font-weight: bold;
+}
+
 section {
     padding: 60px 0px;
 }
