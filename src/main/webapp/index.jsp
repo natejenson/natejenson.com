@@ -5,12 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="resources/favicon.png" />
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom JS -->
+<script src="js/scroll.js"></script>
+
 <!-- Custom styles -->
 <link href="css/style.css" rel="stylesheet">
 <link href="css/timeline.css" rel="stylesheet">
