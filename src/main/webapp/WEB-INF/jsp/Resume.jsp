@@ -8,15 +8,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="resources/js/bootstrap.min.js"></script>
+<link href="resources/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom JS -->
-<script src="js/scroll.js"></script>
+<script src="resources/js/scroll.js"></script>
 
 <!-- Custom styles -->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/timeline.css" rel="stylesheet">
+<link href="resources/css/style.css" rel="stylesheet">
+<link href="resources/css/timeline.css" rel="stylesheet">
 <link
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 	rel="stylesheet">
@@ -79,7 +79,7 @@
 			<div class="container">
 				<div class="row">
 					<div class=col-md-2>
-						<img class="img-circle" src="resources/headshot.png"
+						<img class="img-circle" src="resources/img/headshot.png"
 							alt="Nate Jenson" style="width: 140px; height: 140px;">
 					</div>
 					<div class="col-md-10">
@@ -155,14 +155,14 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="item active">
-									<img src="resources/earthquakeMapOutput.png"
+									<img src="resources/img/earthquakeMapOutput.png"
 										alt="Earthquake Mapper">
 									<div class="carousel-caption">
 										<h2>Earthquake Mapper - Python</h2>
 									</div>
 								</div>
 								<div class="item">
-									<img src="resources/gravitationalMovement.png"
+									<img src="resources/img/gravitationalMovement.png"
 										alt="Planets in Motion">
 									<div class="carousel-caption">
 										<h2>Gravity Simulator - Java</h2>

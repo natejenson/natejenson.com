@@ -37,7 +37,7 @@ body {
    	font-weight: 900;
    	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
-
+/*
 @media all {
 	#header h1 {
 		font-size: 120px;
@@ -51,6 +51,38 @@ body {
 @media (max-width: 450px) {
 	#header h1 {
 	    font-size: 80px;
+	}
+}
+*/
+
+/* Responsive CSS 
+---------------------------------------------*/
+
+/* Extra Small */
+@media(max-width:767px){
+	#header h1 {
+	    font-size: 80px;
+	}
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+	#header h1 {
+	  	font-size: 100px;
+	}
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+	#header h1 {
+		font-size: 120px;
+	}
+}
+
+/* Large */
+@media(min-width:1200px){
+	#header h1 {
+		font-size: 120px;
 	}
 }
 
