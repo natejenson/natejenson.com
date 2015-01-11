@@ -159,7 +159,7 @@
 									</div>
 								</div>
 								<div class="item">
-									<img src="resources/img/gravitationalMovement.png"
+									<img src="resources/img/planets.gif"
 										alt="Planets in Motion">
 									<div class="carousel-caption">
 										<h2>Gravity Simulator - Java</h2>
