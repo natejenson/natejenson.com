@@ -146,13 +146,20 @@
 							data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#media-carousel" data-slide-to="0"
-									class="active"></li>
+								<li data-target="#media-carousel" data-slide-to="0" class="active"></li>
 								<li data-target="#media-carousel" data-slide-to="1"></li>
+								<li data-target="#media-carousel" data-slide-to="2"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="item active">
-									<img src="resources/img/earthquakeMapOutput.png"
+									<img src="resources/img/suggestionForm.gif"
+										alt="Suggestion Form">
+									<div class="carousel-caption">
+										<h2 class="black">Suggestion Form - Java Spring MVC</h2>
+									</div>
+								</div>
+								<div class="item">
+									<img src="resources/img/earthquakes.gif"
 										alt="Earthquake Mapper">
 									<div class="carousel-caption">
 										<h2>Earthquake Mapper - Python</h2>
