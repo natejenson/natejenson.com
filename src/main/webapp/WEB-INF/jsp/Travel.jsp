@@ -37,17 +37,17 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="${pageContext.request.contextPath}/">NMJ</a>
+				<a class="navbar-brand" href="/">NMJ</a>
 			</div>
 
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="${pageContext.request.contextPath}/#about">About</a></li>
-					<li><a href="${pageContext.request.contextPath}/#projects">Projects</a></li>
-					<li><a href="${pageContext.request.contextPath}/#contact">Contact</a></li>
+					<li><a href="/#about">About</a></li>
+					<li><a href="/#projects">Projects</a></li>
+					<li><a href="/#contact">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="${pageContext.request.contextPath}/travel">Travel</a></li>
+					<li><a href="/travel">Travel</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
