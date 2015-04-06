@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="resources/img/favicon.png" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <!-- Bootstrap -->
 <script src="resources/js/bootstrap.min.js"></script>
@@ -102,7 +103,7 @@
 						class="progress-bar progress-bar-success progress-bar-striped active"
 						role="progressbar" aria-valuenow="60" aria-valuemin="0"
 						aria-valuemax="100" style="width: 60%"></div>
-						<span class="sr-only">60%</span>
+					<span class="sr-only">60%</span>
 				</div>
 				<div class="col-md-2">Java</div>
 				<div class="progress col-md-10">
@@ -110,7 +111,7 @@
 						class="progress-bar progress-bar-danger progress-bar-striped active"
 						role="progressbar" aria-valuenow="40" aria-valuemin="0"
 						aria-valuemax="100" style="width: 40%"></div>
-						<span class="sr-only">40%</span>
+					<span class="sr-only">40%</span>
 				</div>
 				<div class="col-md-2">Python</div>
 				<div class="progress col-md-10">
@@ -118,7 +119,7 @@
 						class="progress-bar progress-bar-warning progress-bar-striped active"
 						role="progressbar" aria-valuenow="50" aria-valuemin="0"
 						aria-valuemax="100" style="width: 50%"></div>
-						<span class="sr-only">50%</span>
+					<span class="sr-only">50%</span>
 				</div>
 				<div class="col-md-2">JQuery</div>
 				<div class="progress col-md-10">
@@ -126,7 +127,7 @@
 						class="progress-bar progress-bar-info progress-bar-striped active"
 						role="progressbar" aria-valuenow="25" aria-valuemin="0"
 						aria-valuemax="100" style="width: 25%"></div>
-						<span class="sr-only">25%</span>
+					<span class="sr-only">25%</span>
 				</div>
 			</div>
 		</section>
@@ -149,7 +150,8 @@
 							data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#media-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#media-carousel" data-slide-to="0"
+									class="active"></li>
 								<li data-target="#media-carousel" data-slide-to="1"></li>
 								<li data-target="#media-carousel" data-slide-to="2"></li>
 							</ol>
@@ -169,8 +171,7 @@
 									</div>
 								</div>
 								<div class="item">
-									<img src="resources/img/planets.gif"
-										alt="Planets in Motion">
+									<img src="resources/img/planets.gif" alt="Planets in Motion">
 									<div class="carousel-caption">
 										<h2>Gravity Simulator - Java</h2>
 									</div>
@@ -207,6 +208,35 @@
 			<div class="container">
 				<ul class="timeline">
 					<li>
+						<div class="timeline-badge info">
+							<i class="glyphicon glyphicon-briefcase"></i>
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3 class="timeline-title">Associate Software Developer</h3>
+								<p>
+									<small><i class="glyphicon glyphicon-time"></i> Proto
+										Labs, Inc. &middot; Jun 2015 - Now</small>
+								</p>
+							</div>
+							<hr />
+							<div class="timeline-body">
+								<ul>
+									<li>Participate in problem analysis with business users
+										and assist in determining software solutions and enhancements.
+									</li>
+									<li>Enhancing our order management, ecommerce, CRM, and
+										intranet manufacturing applications.</li>
+									<li>Provide maintenance break/fix support for the internal
+										websites and triage support issues to other areas of
+										development.</li>
+									<li>Technologies: C#, ASP.NET, SQL Server, JQuery, Visual
+										Studio, Git</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="timeline-inverted">
 						<div class="timeline-badge warning">
 							<i class="glyphicon glyphicon-floppy-disk"></i>
 						</div>
@@ -220,43 +250,45 @@
 							</div>
 							<hr />
 							<div class="timeline-body">
-								<p>
-									&middot; Utilized an Agile development process with the
-									Business Software Development team to resolve support cases
-									within internal applications. <br />&middot; Collaborated with
-									Sales Managers to design and implement new applications that
-									aimed to streamline team processes. <br />&middot;
-									Technologies: Visual Studio, SQL Server, C#, ASP, ASP.NET,
-									Javascript, JQuery
-								</p>
+								<ul>
+									<li>Utilized an Agile development process with the
+										Business Software Development team to resolve support cases
+										within internal applications.</li>
+									<li>Collaborated with Sales Managers to design and
+										implement new applications that aimed to streamline team
+										processes.</li>
+									<li>Technologies: C#, ASP.NET, SQL Server, JQuery, Visual
+										Studio, Git</li>
+								</ul>
 							</div>
 						</div>
 					</li>
-					<li class="timeline-inverted">
-						<div class="timeline-badge info">
-							<i class="glyphicon glyphicon-briefcase"></i>
+					<li>
+						<div class="timeline-badge success">
+							<i class="glyphicon glyphicon-pencil"></i>
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
 								<h4 class="timeline-title">Computer Science Tutor</h4>
 								<p>
 									<small><i class="glyphicon glyphicon-time"></i>
-										Gustavus Adolphus College &middot; Sept 2012 - Now </small>
+										Gustavus Adolphus College &middot; Sep 2012 - May 2015 </small>
 								</p>
 							</div>
 							<hr />
 							<div class="timeline-body">
-								<p>
-									&middot; Maintain clear communication with Computer Science
-									professors in regards to students' understanding of covered
-									class materials. <br />&middot; Be a reliable resource for
-									students seeking academic support, specifically in development
-									projects or test preparation.
-								</p>
+								<ul>
+									<li>Maintain clear communication with Computer Science
+										professors in regards to students' understanding of covered
+										class materials.</li>
+									<li>Be a reliable resource for students seeking academic
+										support, specifically in development projects or test
+										preparation.</li>
+								</ul>
 							</div>
 						</div>
 					</li>
-					<li>
+					<li class="timeline-inverted">
 						<div class="timeline-badge danger">
 							<i class="glyphicon glyphicon-user"></i>
 						</div>
@@ -265,23 +297,24 @@
 								<h4 class="timeline-title">Resident Assistant</h4>
 								<p>
 									<small><i class="glyphicon glyphicon-time"></i>
-										Gustavus Adolphus College &middot; Sept 2012 - May 2014 </small>
+										Gustavus Adolphus College &middot; Sep 2012 - May 2014 </small>
 								</p>
 							</div>
 							<hr />
 							<div class="timeline-body">
-								<p>
-									&middot; Planed and organized social and academic activities
-									for the residents. <br />&middot; Conducted monthly floor
-									meetings to maintain a strong sense of community. <br />&middot;
-									Reported to Residential Life Area Coordinator to collaborate
-									and ensure residents were getting the most out of their
-									on-campus experience.
-								</p>
+								<ul>
+									<li>Planed and organized social and academic activities
+										for the residents.</li>
+									<li>Conducted monthly floor meetings to maintain a strong
+										sense of community.</li>
+									<li>Reported to Residential Life Area Coordinator to
+										collaborate and ensure residents were getting the most out of
+										their on-campus experience.</li>
+								</ul>
 							</div>
 						</div>
 					</li>
-					<li class="timeline-inverted">
+					<li>
 						<div class="timeline-badge">
 							<i class="glyphicon glyphicon-road"></i>
 						</div>
@@ -296,13 +329,14 @@
 							</div>
 							<hr />
 							<div class="timeline-body">
-								<p>
-									&middot; Developed a base knowledge of C# through numerous
-									non-prodution level projects. <br />&middot; Set up and
-									upgrade employee workstations through software installs. <br />&middot;
-									Met with development team regularly to assess progress and
-									establish future projects.
-								</p>
+								<ul>
+									<li>Developed a base knowledge of C# through numerous
+										non-prodution level projects.</li>
+									<li>Set up and upgrade employee workstations through
+										software installs.</li>
+									<li>Met with development team regularly to assess progress
+										and establish future projects.</li>
+								</ul>
 							</div>
 						</div>
 					</li>
