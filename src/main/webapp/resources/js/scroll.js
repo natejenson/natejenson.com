@@ -3,7 +3,7 @@
  */
 
 function scrollNav(){
-	$(".nav a").click(function (e) {
+	$(".navbar-left a").click(function (e) {
 		// Prevent the default action to avoid a the flicker before the animation.
 		e.preventDefault();
 		// Scroll slowly please.

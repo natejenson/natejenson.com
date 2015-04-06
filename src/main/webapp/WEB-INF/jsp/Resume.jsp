@@ -46,14 +46,17 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">NMJ</a>
+					<a class="navbar-brand" href="${pageContext.request.contextPath}/">NMJ</a>
 				</div>
 
 				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav navbar-left">
 						<li><a href="#about">About</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="${pageContext.request.contextPath}/travel">Travel</a></li>
 					</ul>
 				</div>
 				<!--/.nav-collapse -->
@@ -331,7 +334,7 @@
 								<h5 class="timeline-title">Minor in Mathematics</h5>
 								<p>
 									<small><i class="glyphicon glyphicon-time"></i>
-										Gustavus Adolphus College, MN &middot; Expected: May 2015</small>
+										Gustavus Adolphus College, MN &middot; May 2015</small>
 								</p>
 							</div>
 							<hr />

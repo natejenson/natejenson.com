@@ -14,4 +14,19 @@ public class ResumeController {
 
 		return model;
 	}
+	
+
+	@RequestMapping("/budget")
+	public ModelAndView budget(){
+		ModelAndView model = new ModelAndView("Budget");
+
+		return model;
+	}
+	
+	@RequestMapping("/travel")
+	public ModelAndView travel(){
+		ModelAndView model = new ModelAndView("Travel");
+
+		return model;
+	}
 }
