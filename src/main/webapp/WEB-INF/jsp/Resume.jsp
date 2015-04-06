@@ -46,7 +46,7 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="${pageContext.request.contextPath}/">NMJ</a>
+					<a class="navbar-brand" href="/">NMJ</a>
 				</div>
 
 				<div class="collapse navbar-collapse">
@@ -56,7 +56,7 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="${pageContext.request.contextPath}/travel">Travel</a></li>
+						<li><a href="/travel">Travel</a></li>
 					</ul>
 				</div>
 				<!--/.nav-collapse -->
