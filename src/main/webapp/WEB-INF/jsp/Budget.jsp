@@ -18,7 +18,6 @@
 <!-- Custom styles -->
 <link href="resources/css/style.css" rel="stylesheet">
 <link href="resources/css/budget.css" rel="stylesheet">
-
 <link
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 	rel="stylesheet">
@@ -81,16 +80,16 @@
 							<div class="col-xs-2">
 								<div class="input-group">
 									<span class="input-group-addon">$</span> <input type="number"
-										class="form-control income-value"
+										class="form-control incomeValue"
 										aria-label="Amount (to the nearest dollar)" value="0" />
 								</div>
 							</div>
 							<div class="col-xs-2">
 								<select id="income-selector" class="form-control">
-									<option value="weekly">Weekly</option>
-									<option value="semi-monthly">Semi-Monthly</option>
-									<option value="monthly">Monthly</option>
-									<option value="annually">Annually</option>
+									<option value="week">Weekly</option>
+									<option value="fortnight">Semi-Monthly</option>
+									<option value="month">Monthly</option>
+									<option selected value="year">Annually</option>
 								</select>
 							</div>
 						</div>
@@ -98,9 +97,9 @@
 							<div class="col-xs-2">Budget Length:</div>
 							<div class="col-xs-2">
 								<select id="budget-selector" class="form-control">
-									<option value="daily">Daily</option>
-									<option value="weekly">Weekly</option>
-									<option value="monthly">Monthly</option>
+									<option value="day">Daily</option>
+									<option value="week">Weekly</option>
+									<option selected value="month">Monthly</option>
 								</select>
 							</div>
 						</div>
@@ -108,33 +107,26 @@
 						<hr />
 
 						<!-- ************************ EXPENSES ****************************** -->
-						<div class="row">
-							<div class="col-xs-8">
-								<input type="text" />
-							</div>
-							<div class="col-xs-2">
-								<input class="expense-value" type="number" value="0" />
-							</div>
-							<div class="col-xs-2">
-								<select id="expense0-selector" class="form-control">
-									<option value="daily">Per Day</option>
-									<option value="weekly">Per Week</option>
-									<option value="monthly">Per Month</option>
-								</select>
-							</div>
+
+						<table id="expenseTable"
+							class="table table-bordered table-condensed">
+							<tbody>
+
+							</tbody>
+						</table>
+						<div id="addRowButton">
+							<i class="glyphicon glyphicon-plus text-success"></i>
 						</div>
-					</div>
 
-					<!-- ************************ Footer ****************************** -->
+						<!-- ************************ Footer ****************************** -->
 
 
-					<div class="panel-footer pull-right">
-						<div class="row">
-							<div class=".col-xs-2">
-							<span>$</span>
-							 <input readonly
-									id="budgetTotal" type="number" value="0" />
-									<span id="budgetLabel">Daily</span>
+						<div class="panel-footer pull-right">
+							<div class="row">
+								<div class=".col-xs-2">
+									<span>$</span> <input readonly id="budgetTotal" type="number"
+										value="0" /> <span id="budgetLabel">Daily</span>
+								</div>
 							</div>
 						</div>
 					</div>

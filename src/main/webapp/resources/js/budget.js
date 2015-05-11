@@ -1,81 +1,99 @@
 $(function(){
-	$('.income-value, .expense-value').change(function(){
-		calculateTotal();
-	})
 	
-	$('#budget-selector, #income-selector').change(function(){
-		calculateTotal();
-		$('#budgetLabel').text($('#budget-selector option:selected').text());
+	// Initialize example
+	$('.incomeValue').val(40000);
+	addExpenseRow();
+	$('.expenseName').val("expense #1");
+	$('.expenseValue').val(100);
+	$('#budgetLabel').text($('#budget-selector option:selected').text());
+	calculateBudget();
+	
+	//Set event handlers and initial values.
+	
+	$('.incomeValue, .expenseRow input').change(function(){
+		calculateBudget();
 	})
+
+	$('#budget-selector, #income-selector, .expenseTime, .expenseValue').change(function(){
+		calculateBudget();
+		$('#budgetLabel').text($('#budget-selector option:selected').text());
+	});
+
+	$('#addRowButton').click(function(){
+		addExpenseRow();
+	});
+
+	$(".incomeValue, .expenseValue").keypress(function (e) {
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+			return false;
+		}
+	});
+
 });
 
-function calculateTotal(){
-	var total = 0;
-	var income = 0;
-	var expenses = 0;
-
-	// Calculate Income
-	$('.income-value').each(function() {
-		income += $(this).val();
-	});
-
-	// Calculate Expenses
-
-	var daysOfIncome = 0;
-	switch ($('#income-selector option:selected').text()) {
-	case 'Annually':
-		daysOfIncome = 365;
-		break;
-	case 'Monthly':
-		daysOfIncome = 30;
-		break;
-	case 'Bi-Monthly':
-		daysOfIncome = 15;
-		break;
-	case 'Weekly':
-		daysOfIncome = 7;
-		break;
-	default:
-		break;
-	}
-
-	var index = 0;
-	$('.expense-value').each(function() {
-		var daysOfExpense = 0;
-		switch ($('#expense0-selector option:selected').text()) {
-		case 'Per Month':
-			daysOfExpense = 30;
-			break;
-		case 'Per Week':
-			daysOfExpense = 7;
-			break;
-		case 'Per Day':
-			daysOfExpense = 1;
-			break;
-		default:
-			break;
+function addExpenseRow(){
+	$('#expenseTable').append('<tr class="expenseRow">\
+			<td><input type="text" class="form-control expenseName" /></td>\
+			<td><input type="number"\
+			class="form-control expenseValue" /></td>\
+			<td><select class="form-control expenseTime">\
+			<option value="day">Per Day</option>\
+			<option value="week">Per Week</option>\
+			<option selected value="month">Per Month</option>\
+			<option value="year">Per Year</option>\
+			</select></td>\
+	</tr>');
+	
+	//TODO: change this to .on('click',...) so this doesn't have to be done for every new element
+	// this is just repeated from above.
+	$(".expenseValue").keypress(function (e) {
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+			return false;
 		}
-		var conversionFactor = daysOfIncome * 1.0 / daysOfExpense
+	});
+	$('.expenseValue').change(function(){
+		calculateBudget();
+	});
+}
 
-		expenses += ( $(this).val() * conversionFactor );
+//Takes in a timeUnit (string) and returns the number of days for that unit.
+function convertTimeToDays(timeUnit){
+	switch(timeUnit){
+	case "day":
+		return 1.0;
+	case "week":
+		return 365/52.0;
+	case "fortnight":
+		return 365.0/26;
+	case "month":
+		return 365.0/12;
+	case "year":
+		return 365.0
+	default:
+		return 1.0;
+	}
+}
+
+//Calculate and display the budget.
+function calculateBudget(){
+	var budgetTimeDays = convertTimeToDays($('#budget-selector').val());
+	var incomeTimeDays = convertTimeToDays($('#income-selector').val());
+
+	// TODO: change to a += for-each loop (for multiple incomeVals)
+	var income = parseFloat($('.incomeValue').val());
+
+	// Calculate the income in terms of the budget-time-period
+	budget = income * (budgetTimeDays/incomeTimeDays);
+
+	// for-each row of expenses, modify the budget to reflect that expense
+	$("#expenseTable > tbody > tr.expenseRow").each(function() {
+		var expenseValue = parseFloat($(this).find("input.expenseValue").val());
+		if(expenseValue){
+			var expenseTimeDays = convertTimeToDays($(this).find("select.expenseTime").val());
+			budget = budget - (expenseValue * (budgetTimeDays/expenseTimeDays));
+		}
 	});
 
-	var budgetDays = 0;
-	switch ($('#budget-selector option:selected').text()) {
-	case 'Monthly':
-		budgetDays = 30;
-		break;
-	case 'Weekly':
-		budgetDays = 7;
-		break;
-	case 'Daily':
-		budgetDays = 1;
-		break;
-	default:
-		break;
-	}
-
-	total = ((income - expenses) * budgetDays/365.0).toFixed(2); 
-
-	$('#budgetTotal').val(total);
+	// Display the updated budget
+	$('#budgetTotal').val(budget.toFixed(2));
 }
