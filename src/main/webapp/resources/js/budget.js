@@ -1,36 +1,51 @@
 $(function(){
+
+	//
+	// Initialize form w/ example row
+	//
 	
-	// Initialize example
 	$('.incomeValue').val(40000);
 	addExpenseRow();
 	$('.expenseName').val("expense #1");
 	$('.expenseValue').val(100);
 	$('#budgetLabel').text($('#budget-selector option:selected').text());
-	calculateBudget();
-	
-	//Set event handlers and initial values.
-	
-	$('.incomeValue, .expenseRow input').change(function(){
-		calculateBudget();
-	})
+	updateBudget();
 
-	$('#budget-selector, #income-selector, .expenseTime, .expenseValue').change(function(){
-		calculateBudget();
-		$('#budgetLabel').text($('#budget-selector option:selected').text());
+	//
+	//Set event handlers and initial values.
+	//
+	
+	// Handle budget and income length selector changes
+	$('#budget-selector, #income-selector').change(function(){
+		updateBudget();
+		if($(this) == $('#budget-selector')){
+			$('#budgetLabel').text($('#budget-selector option:selected').text());
+		}
 	});
 
+	// Handle the add row button
 	$('#addRowButton').click(function(){
 		addExpenseRow();
 	});
 
-	$(".incomeValue, .expenseValue").keypress(function (e) {
+	// Update the budget whenever an income or expense is changed
+	$(document).on('change','.incomeValue, .expenseTime, .expenseValue', function(e){
+		updateBudget();
+	});
+
+	// Allow only numbers on certain inputs.
+	$(document).on('keypress', '.incomeValue, .expenseValue', function(e) {
 		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
 			return false;
 		}
 	});
-
 });
 
+//
+//****** FUNCTIONS *******
+//
+
+// Add a new expense row to the expense table
 function addExpenseRow(){
 	$('#expenseTable').append('<tr class="expenseRow">\
 			<td><input type="text" class="form-control expenseName" /></td>\
@@ -43,20 +58,9 @@ function addExpenseRow(){
 			<option value="year">Per Year</option>\
 			</select></td>\
 	</tr>');
-	
-	//TODO: change this to .on('click',...) so this doesn't have to be done for every new element
-	// this is just repeated from above.
-	$(".expenseValue").keypress(function (e) {
-		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-			return false;
-		}
-	});
-	$('.expenseValue').change(function(){
-		calculateBudget();
-	});
 }
 
-//Takes in a timeUnit (string) and returns the number of days for that unit.
+// Takes in a timeUnit (string) and returns the number of days for that unit.
 function convertTimeToDays(timeUnit){
 	switch(timeUnit){
 	case "day":
@@ -75,7 +79,7 @@ function convertTimeToDays(timeUnit){
 }
 
 //Calculate and display the budget.
-function calculateBudget(){
+function updateBudget(){
 	var budgetTimeDays = convertTimeToDays($('#budget-selector').val());
 	var incomeTimeDays = convertTimeToDays($('#income-selector').val());
 
@@ -89,8 +93,16 @@ function calculateBudget(){
 	$("#expenseTable > tbody > tr.expenseRow").each(function() {
 		var expenseValue = parseFloat($(this).find("input.expenseValue").val());
 		if(expenseValue){
+			// Remove any errors if they exist
+			$(this).removeClass("danger");
+
+			// Adjust the budget
 			var expenseTimeDays = convertTimeToDays($(this).find("select.expenseTime").val());
 			budget = budget - (expenseValue * (budgetTimeDays/expenseTimeDays));
+		}
+		else{
+			// Whoa, that's not a number, let's make it look red
+			$(this).addClass("danger");
 		}
 	});
 

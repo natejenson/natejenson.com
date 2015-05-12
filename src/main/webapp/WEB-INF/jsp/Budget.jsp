@@ -72,61 +72,77 @@
 			<div class="container">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<h3 class="panel-title">Budget</h3>
+						<h3 class="panel-title">Budgeting Tool</h3>
 					</div>
 					<div class="panel-body">
+
+
 						<div class="row">
-							<div class="col-xs-2">Income:</div>
-							<div class="col-xs-2">
-								<div class="input-group">
-									<span class="input-group-addon">$</span> <input type="number"
-										class="form-control incomeValue"
-										aria-label="Amount (to the nearest dollar)" value="0" />
+							<div class="col-sm-6">
+								Income:
+								<div class="row">
+									<div class="col-xs-6 col-sm-6">
+										<div class="input-group">
+											<span class="input-group-addon">$</span> <input type="number"
+												class="form-control incomeValue"
+												aria-label="Amount (to the nearest dollar)" value="0" />
+										</div>
+										<div>
+											<select id="income-selector" class="form-control">
+												<option value="week">Weekly</option>
+												<option value="fortnight">Semi-Monthly</option>
+												<option value="month">Monthly</option>
+												<option selected value="year">Annually</option>
+											</select>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="col-xs-2">
-								<select id="income-selector" class="form-control">
-									<option value="week">Weekly</option>
-									<option value="fortnight">Semi-Monthly</option>
-									<option value="month">Monthly</option>
-									<option selected value="year">Annually</option>
-								</select>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-2">Budget Length:</div>
-							<div class="col-xs-2">
-								<select id="budget-selector" class="form-control">
-									<option value="day">Daily</option>
-									<option value="week">Weekly</option>
-									<option selected value="month">Monthly</option>
-								</select>
-							</div>
-						</div>
-
-						<hr />
-
-						<!-- ************************ EXPENSES ****************************** -->
-
-						<table id="expenseTable"
-							class="table table-bordered table-condensed">
-							<tbody>
-
-							</tbody>
-						</table>
-						<div id="addRowButton">
-							<i class="glyphicon glyphicon-plus text-success"></i>
-						</div>
-
-						<!-- ************************ Footer ****************************** -->
-
-
-						<div class="panel-footer pull-right">
-							<div class="row">
-								<div class=".col-xs-2">
-									<span>$</span> <input readonly id="budgetTotal" type="number"
-										value="0" /> <span id="budgetLabel">Daily</span>
+							<div class="col-sm-6">
+								Budget Length:
+								<div class="row">
+									<div class="col-xs-6 col-sm-6">
+										<div>
+											<select id="budget-selector" class="form-control">
+												<option value="day">Daily</option>
+												<option value="week">Weekly</option>
+												<option selected value="month">Monthly</option>
+											</select>
+										</div>
+									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr />
+
+					<!-- ************************ EXPENSES ****************************** -->
+
+					<table id="expenseTable"
+						class="table table-bordered table-condensed">
+						<tbody>
+
+						</tbody>
+					</table>
+					<table class="table">
+						<tbody>
+							<tr>
+								<td>
+									<button id="addRowButton" type="button" class="btn btn-default">
+										<i class="glyphicon glyphicon-plus text-success"></i>
+									</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<!-- ************************ Footer ****************************** -->
+					<div class="panel-footer pull-right">
+						<div class="row">
+							<div class=".col-xs-2">
+								<span>$</span> <input readonly id="budgetTotal" type="number"
+									value="0" /> <span id="budgetLabel">Daily</span>
 							</div>
 						</div>
 					</div>
