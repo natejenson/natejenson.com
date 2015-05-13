@@ -7,8 +7,7 @@
 <title>Travel</title>
 <link rel="icon" type="image/png" href="resources/img/favicon.png" />
 
-<script
-	src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -47,6 +46,7 @@
 					<li><a href="/#contact">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/budget">Budget</a></li>
 					<li><a href="/travel">Travel</a></li>
 				</ul>
 			</div>
