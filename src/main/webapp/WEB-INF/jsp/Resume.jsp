@@ -91,8 +91,7 @@
 							problem-solver with a drive for success. My professional
 							interests arise from my passion for Software Engineering and my
 							desire to innovate. In my spare time, I enjoy sitting back to
-							watch a good documentary or lacing up my skates to play some
-							hockey.</p>
+							watch a good documentary or lacing up my skates to play	hockey.</p>
 					</div>
 				</div>
 			</div>

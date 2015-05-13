@@ -18,7 +18,7 @@ $(function(){
 	// Handle budget and income length selector changes
 	$('#budget-selector, #income-selector').change(function(){
 		updateBudget();
-		if($(this) == $('#budget-selector')){
+		if($(this).is($('#budget-selector'))){
 			$('#budgetLabel').text($('#budget-selector option:selected').text());
 		}
 	});
