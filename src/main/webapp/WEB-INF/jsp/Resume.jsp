@@ -14,6 +14,7 @@
 
 <!-- Custom JS -->
 <script src="resources/js/scroll.js"></script>
+<script src="resources/js/resume.js"></script>
 
 <!-- Custom styles -->
 <link href="resources/css/style.css" rel="stylesheet">
@@ -34,14 +35,20 @@
 
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
 
-  ga('create', 'UA-63649130-1', 'auto');
-  ga('send', 'pageview');
-
+	ga('create', 'UA-63649130-1', 'auto');
+	ga('send', 'pageview');
 </script>
 
 </head>
@@ -103,42 +110,42 @@
 							problem-solver with a drive for success. My professional
 							interests arise from my passion for Software Engineering and my
 							desire to innovate. In my spare time, I enjoy sitting back to
-							watch a good documentary or lacing up my skates to play	hockey.</p>
+							watch a good documentary or lacing up my skates to play hockey.</p>
 					</div>
 				</div>
 			</div>
 			<br />
 			<div class="container progress-bar-container">
 				<div class="col-md-2">C#</div>
-				<div class="progress col-md-10">
+				<div class="progress progress-striped active col-md-10">
 					<div
-						class="progress-bar progress-bar-success progress-bar-striped active"
-						role="progressbar" aria-valuenow="60" aria-valuemin="0"
-						aria-valuemax="100" style="width: 60%"></div>
+						id="csharp"
+						class="progress-bar progress-bar-success"
+						style="width: 0%"></div>
 					<span class="sr-only">60%</span>
 				</div>
 				<div class="col-md-2">Java</div>
-				<div class="progress col-md-10">
+				<div class="progress progress-striped active col-md-10">
 					<div
-						class="progress-bar progress-bar-danger progress-bar-striped active"
-						role="progressbar" aria-valuenow="40" aria-valuemin="0"
-						aria-valuemax="100" style="width: 40%"></div>
+						id="java"
+						class="progress-bar progress-bar-danger"
+						style="width: 0%"></div>
 					<span class="sr-only">40%</span>
 				</div>
 				<div class="col-md-2">Python</div>
-				<div class="progress col-md-10">
+				<div class="progress progress-striped active col-md-10">
 					<div
-						class="progress-bar progress-bar-warning progress-bar-striped active"
-						role="progressbar" aria-valuenow="50" aria-valuemin="0"
-						aria-valuemax="100" style="width: 50%"></div>
+						id="python"
+						class="progress-bar progress-bar-warning"
+						style="width: 0%"></div>
 					<span class="sr-only">50%</span>
 				</div>
 				<div class="col-md-2">JQuery</div>
-				<div class="progress col-md-10">
+				<div class="progress progress-striped active col-md-10">
 					<div
-						class="progress-bar progress-bar-info progress-bar-striped active"
-						role="progressbar" aria-valuenow="25" aria-valuemin="0"
-						aria-valuemax="100" style="width: 25%"></div>
+						id="jquery"
+						class="progress-bar progress-bar-info"
+						style="width: 0%"></div>
 					<span class="sr-only">25%</span>
 				</div>
 			</div>

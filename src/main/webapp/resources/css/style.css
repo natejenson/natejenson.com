@@ -93,6 +93,11 @@ body {
 	padding: 0;
 }
 
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
 
 /* Work
 -------------------------------------------------- */
