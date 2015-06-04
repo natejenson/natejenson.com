@@ -65,7 +65,7 @@
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="/#about">About</a></li>
-						<li><a href="$/#projects">Projects</a></li>
+						<li><a href="/#projects">Projects</a></li>
 						<li><a href="/#contact">Contact</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
@@ -87,8 +87,6 @@
 						<h3 class="panel-title">Budgeting Tool</h3>
 					</div>
 					<div class="panel-body">
-
-
 						<div class="row">
 							<div class="col-sm-6">
 								Income:

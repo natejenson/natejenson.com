@@ -39,7 +39,18 @@ $(function(){
 			return false;
 		}
 	});
+	
+	// Remove row & update budget
+	$(document).on('click','.btn-remove', function(e){
+		var $tr = $(this).closest('tr');
+        $tr.css("background-color","#c0392b");
+        $tr.fadeOut(400, function(){
+            $tr.remove();
+            updateBudget();
+        });
+	});
 });
+
 
 //
 //****** FUNCTIONS *******
@@ -57,8 +68,12 @@ function addExpenseRow(){
 			<option selected value="month">Per Month</option>\
 			<option value="year">Per Year</option>\
 			</select></td>\
+			<td><button type="button" class="btn btn-default btn-remove">\
+			<i class="glyphicon glyphicon-remove text-danger"></i>\
+			</button></td>\
 	</tr>');
 }
+
 
 // Takes in a timeUnit (string) and returns the number of days for that unit.
 function convertTimeToDays(timeUnit){
