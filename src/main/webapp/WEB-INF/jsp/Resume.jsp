@@ -107,8 +107,8 @@
 						<h1>About Me</h1>
 						<p>My name is Nate Jenson and I enjoy brainstorming,
 							discovering, and developing solutions. I am a team-oriented
-							problem-solver with a drive for success. My professional
-							interests arise from my passion for Software Engineering and my
+							problem solver with a drive for success. My professional
+							interests are fueled by my passion for software engineering and my
 							desire to innovate. In my spare time, I enjoy sitting back to
 							watch a good documentary or lacing up my skates to play hockey.</p>
 					</div>
