@@ -118,33 +118,25 @@
 			<div class="container progress-bar-container">
 				<div class="col-md-2">C#</div>
 				<div class="progress progress-striped active col-md-10">
-					<div
-						id="csharp"
-						class="progress-bar progress-bar-success"
+					<div id="csharp" class="progress-bar progress-bar-success"
 						style="width: 0%"></div>
 					<span class="sr-only">60%</span>
 				</div>
 				<div class="col-md-2">Java</div>
 				<div class="progress progress-striped active col-md-10">
-					<div
-						id="java"
-						class="progress-bar progress-bar-danger"
+					<div id="java" class="progress-bar progress-bar-danger"
 						style="width: 0%"></div>
 					<span class="sr-only">40%</span>
 				</div>
 				<div class="col-md-2">Python</div>
 				<div class="progress progress-striped active col-md-10">
-					<div
-						id="python"
-						class="progress-bar progress-bar-warning"
+					<div id="python" class="progress-bar progress-bar-warning"
 						style="width: 0%"></div>
 					<span class="sr-only">50%</span>
 				</div>
 				<div class="col-md-2">JQuery</div>
 				<div class="progress progress-striped active col-md-10">
-					<div
-						id="jquery"
-						class="progress-bar progress-bar-info"
+					<div id="jquery" class="progress-bar progress-bar-info"
 						style="width: 0%"></div>
 					<span class="sr-only">25%</span>
 				</div>
@@ -161,7 +153,19 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1>Projects</h1>
+						<div class="col-md-2">
+							<h1>Projects</h1>
+						</div>
+						<div class="col-md-10 text-right">
+							<h3 id="projectDescription"></h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+
+
 
 						<!-- CAROUSEL -->
 
@@ -177,23 +181,19 @@
 							<div class="carousel-inner">
 								<div class="item active">
 									<img src="resources/img/suggestionForm.gif"
-										alt="Suggestion Form">
-									<div class="carousel-caption">
-										<h2 class="black">Suggestion Form - Java Spring MVC</h2>
-									</div>
+										alt="Suggestion Form" /> <input type="hidden"
+										name="SuggestionForm"
+										value="Suggestion Form {Java Spring MVC}">
 								</div>
 								<div class="item">
 									<img src="resources/img/earthquakes.gif"
-										alt="Earthquake Mapper">
-									<div class="carousel-caption">
-										<h2>Earthquake Mapper - Python</h2>
-									</div>
+										alt="Earthquake Mapper"> <input type="hidden"
+										name="EarthquakeMapper" value="Earthquake Mapper {Python}">
 								</div>
 								<div class="item">
-									<img src="resources/img/planets.gif" alt="Planets in Motion">
-									<div class="carousel-caption">
-										<h2>Gravity Simulator - Java</h2>
-									</div>
+									<img src="resources/img/planets.gif" alt="Planets in Motion" />
+									<input type="hidden" name="Gravity"
+										value="Gravity Simulator {Java}">
 								</div>
 							</div>
 							<a class="left carousel-control" href="#media-carousel"

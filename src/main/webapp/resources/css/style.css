@@ -14,8 +14,9 @@ body {
 #media-carousel .carousel-inner > .item > img {
   	min-width: 50%;
   	margin: 0 auto;
-	height: 500px;
+	height: auto;
 }
+
 
 .black {
 	color: #000;
@@ -37,23 +38,6 @@ body {
    	font-weight: 900;
    	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
-/*
-@media all {
-	#header h1 {
-		font-size: 120px;
-	}
-}
-@media (max-width: 767px) {
-	#header h1 {
-	  	font-size: 100px;
-	}
-}
-@media (max-width: 450px) {
-	#header h1 {
-	    font-size: 80px;
-	}
-}
-*/
 
 /* Responsive CSS 
 ---------------------------------------------*/
