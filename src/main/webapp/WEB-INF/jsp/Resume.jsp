@@ -88,9 +88,9 @@
 
 		<section id="header" class="painted-accent">
 			<div class="container">
-				<h2>Hello, I am</h2>
+				<h2>Hello, I'm</h2>
 				<h1>Nate Jenson</h1>
-				<h3>Computer Science &middot; Gustavus Adolphus College '15</h3>
+				<h2 id="descriptorLabel"></h2>
 			</div>
 		</section>
 
