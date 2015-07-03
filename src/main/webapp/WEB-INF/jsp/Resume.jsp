@@ -76,8 +76,8 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="${pageContext.request.contextPath}/budget">Budget</a></li>
-						<li><a href="/travel">Travel</a></li>
+						<li><a href="budget">Budget</a></li>
+						<li><a href="travel">Travel</a></li>
 					</ul>
 				</div>
 				<!--/.nav-collapse -->
