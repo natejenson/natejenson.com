@@ -14,7 +14,7 @@ $(document).ready(function(){
 	// Cycle through descriptors
 	var descriptors = ["Sofware Developer","Collaborator","Problem Solver","Optimist"]
 	$('#descriptorLabel').text(descriptors[0]);
-	setInterval(changeDescriptor,3500);
+	setInterval(changeDescriptor,3000);
 	//-
 	function changeDescriptor(){
 		var descriptorIndex = descriptors.indexOf($('#descriptorLabel').text());

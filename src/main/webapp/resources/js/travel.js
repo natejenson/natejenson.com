@@ -18,6 +18,11 @@ function initialize() {
 		map: map,
 		title: 'Minneapolis, Minnesota'
 	});
+	var markerWI = new google.maps.Marker({
+		position: new google.maps.LatLng(43.0500, -87.9500),
+		map: map,
+		title: 'Milwaukee, Wisconsin'
+	});
 	var markerGER = new google.maps.Marker({
 		position: new google.maps.LatLng(50.108883, 8.672956),
 		map: map,
@@ -54,14 +59,19 @@ function initialize() {
 		title: 'Ft. Myers, Florida' 
 	});
 	var markerIL = new google.maps.Marker({
-		position: new google.maps.LatLng(41.659293, -87.988961),
+		position: new google.maps.LatLng(41.876885, -87.619804),
 		map: map,
 		title: 'Chicago, Illinois' 
 	});
 	var markerMT = new google.maps.Marker({
 		position: new google.maps.LatLng(45.374878, -107.430519),
 		map: map,
-		title: 'Yellowstone National Park, Montana' 
+		title: 'Yellowstone National Park, Montana'
+	});
+	var markerApostle = new google.maps.Marker({
+		position: new google.maps.LatLng(46.939149, -90.632593),
+		map: map,
+		title: 'Apostle Islands, Lake Superior' 
 	});
 	var markerSD = new google.maps.Marker({
 		position: new google.maps.LatLng(43.879141, -103.459100),
