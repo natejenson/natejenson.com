@@ -177,6 +177,7 @@
 									class="active"></li>
 								<li data-target="#media-carousel" data-slide-to="1"></li>
 								<li data-target="#media-carousel" data-slide-to="2"></li>
+								<li data-target="#media-carousel" data-slide-to="3"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="item active">
@@ -194,6 +195,11 @@
 									<img src="resources/img/planets.gif" alt="Planets in Motion" />
 									<input type="hidden" name="Gravity"
 										value="Gravity Simulator {Java}">
+								</div>
+								<div class="item">
+									<img src="resources/img/calculator.gif" alt="Calculator App" />
+									<input type="hidden" name="Calculator"
+										value="Calculator {Android}">
 								</div>
 							</div>
 							<a class="left carousel-control" href="#media-carousel"

@@ -34,14 +34,20 @@
 
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
 
-  ga('create', 'UA-63649130-1', 'auto');
-  ga('send', 'pageview');
-
+	ga('create', 'UA-63649130-1', 'auto');
+	ga('send', 'pageview');
 </script>
 
 </head>
@@ -77,11 +83,19 @@
 			</div>
 		</div>
 
-
-
 		<!-- BUDGET -->
 		<section id="budget-section" class="section painted-accent">
 			<div class="container">
+				<div class="alert alert-info alert-dismissible" role="alert">
+					<button type="button" class="close" data-dismiss="alert"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<strong>Heads up!</strong> This tool is still under construction.
+					If you have any issues, tips, or other feedback, feel free to <a
+						href="/#contact" class="alert-link">contact me</a>.
+				</div>
+
 				<div class="panel panel-primary">
 					<div class="panel-heading">
 						<h3 class="panel-title">Budgeting Tool</h3>
@@ -93,8 +107,9 @@
 								<div class="row">
 									<div class="col-xs-6 col-sm-6">
 										<div class="input-group">
-											<span class="input-group-addon">$</span> <input type="number"
-												class="form-control incomeValue"
+											<span class="input-group-addon"> <i
+												class="glyphicon glyphicon-usd"></i>
+											</span> <input type="number" class="form-control incomeValue"
 												aria-label="Amount (to the nearest dollar)" value="0" />
 										</div>
 										<div>
@@ -151,11 +166,27 @@
 					<div class="panel-footer pull-right">
 						<div class="row">
 							<div class=".col-xs-2">
-								<span>$</span> <input readonly id="budgetTotal" type="number"
-									value="0" /> <span id="budgetLabel">Daily</span>
+								<i class="glyphicon glyphicon-usd"></i> <input readonly
+									id="budgetTotal" type="number" value="0" /> <span
+									id="budgetLabel">Daily</span>
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div>
+					<h4>How does this work?</h4>
+					<p>
+						Long term budgeting can sometimes be daunting. This calculator can be used to help budget by the day,
+						 week, or month. Ever not sure how much coffee you are drinking in a year, but can easily figure out how much per week?
+						 Customize each expense not only by how much it is, but also by how frequent it is.
+					</p>
+					<p>
+						Made with JQuery, check out <a href="/resources/js/budget.js">the source</a>.
+					</p>
 				</div>
 			</div>
 		</section>
