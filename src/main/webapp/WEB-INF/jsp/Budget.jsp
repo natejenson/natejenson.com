@@ -52,11 +52,11 @@
 
 </head>
 <body>
-	<div id="wrap">
+	<div class="wrapper">
 
 		<!-- NAVBAR -->
 
-		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="navbar navbar-accent navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -96,16 +96,16 @@
 						href="/#contact" class="alert-link">contact me</a>.
 				</div>
 
-				<div class="panel panel-primary">
+				<div id="budget-panel" class="panel">
 					<div class="panel-heading">
 						<h3 class="panel-title">Budgeting Tool</h3>
 					</div>
 					<div class="panel-body">
 						<div class="row">
 							<div class="col-sm-6">
-								Income:
-								<div class="row">
-									<div class="col-xs-6 col-sm-6">
+								<strong class="col-xs-12 section-title">Income</strong>
+								<div class="row center">
+									<div>
 										<div class="input-group">
 											<span class="input-group-addon"> <i
 												class="glyphicon glyphicon-usd"></i>
@@ -124,9 +124,9 @@
 								</div>
 							</div>
 							<div class="col-sm-6">
-								Budget Length:
-								<div class="row">
-									<div class="col-xs-6 col-sm-6">
+								<strong class="col-xs-12 section-title">Budget Length</strong>
+								<div class="row center">
+									<div>
 										<div>
 											<select id="budget-selector" class="form-control">
 												<option value="day">Daily</option>
@@ -138,29 +138,26 @@
 								</div>
 							</div>
 						</div>
+						<hr />
+
+						<!-- ************************ EXPENSES ****************************** -->
+						<div class="row">
+							<strong class="col-xs-12 section-title">Expenses</strong>
+						</div>
+						<div class="row">
+							<table id="expenseTable" class="table table-condensed">
+								<tbody>
+
+								</tbody>
+							</table>
+						</div>
+						<div class="row center-text">
+							<button id="addRowButton" type="button" class="btn btn-default">
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+						</div>
 					</div>
 
-					<hr />
-
-					<!-- ************************ EXPENSES ****************************** -->
-
-					<table id="expenseTable"
-						class="table table-bordered table-condensed">
-						<tbody>
-
-						</tbody>
-					</table>
-					<table class="table">
-						<tbody>
-							<tr>
-								<td>
-									<button id="addRowButton" type="button" class="btn btn-default">
-										<i class="glyphicon glyphicon-plus text-success"></i>
-									</button>
-								</td>
-							</tr>
-						</tbody>
-					</table>
 
 					<!-- ************************ Footer ****************************** -->
 					<div class="panel-footer pull-right">
@@ -179,24 +176,25 @@
 			<div class="container">
 				<div>
 					<h4>How does this work?</h4>
+					<p>Long term budgeting can sometimes be daunting. This
+						calculator can be used to help budget by the day, week, or month.
+						Ever not sure how much coffee you are drinking in a year, but can
+						easily figure out how much per week? Customize each expense not
+						only by how much it is, but also by how frequent it is.</p>
 					<p>
-						Long term budgeting can sometimes be daunting. This calculator can be used to help budget by the day,
-						 week, or month. Ever not sure how much coffee you are drinking in a year, but can easily figure out how much per week?
-						 Customize each expense not only by how much it is, but also by how frequent it is.
-					</p>
-					<p>
-						Made with JQuery, check out <a href="/resources/js/budget.js">the source</a>.
+						Made with JQuery, check out <a href="/resources/js/budget.js">the
+							source</a>.
 					</p>
 				</div>
 			</div>
 		</section>
 
-		<div id="push"></div>
+		<div class="push"></div>
 	</div>
-	<!-- /wrap -->
+	<!-- /wrapper -->
 
 	<!-- footer -->
-	<div id="footer">
+	<div class="footer">
 		<div class="container">
 			<p class="muted footerMsg">&copy; Nate Jenson 2015</p>
 		</div>

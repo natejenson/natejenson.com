@@ -7,3 +7,60 @@
 	padding: 10px 70px;
 }
 
+#budget-panel {
+	border-color: #3498db;
+}
+
+#budget-panel > .panel-heading {
+	background-color: #3498db;
+}
+
+.panel-title {
+	font-weight: bold;
+	color: white;
+}
+
+
+.section-title {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+div .center {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+#addRowButton {
+	width: 400px;
+	background-color: #0f85d1;
+	color: white;
+	border-color: #0f85d1;
+}
+#addRowButton:hover {
+	background-color: #85C4ED;
+	text-color: #0665A2
+	border-color: #85C4ED;
+}
+
+/* Responsive CSS 
+---------------------------------------------*/
+
+/* Extra Small */
+@media ( max-width :767px) {
+	.section-title{
+		padding-top: 15px;
+	}
+	
+	hr {
+		margin-bottom: 0px;
+	}
+}

@@ -38,4 +38,5 @@ $(document).ready(function(){
 	$("#jquery").animate({
 		width: "40%"
 	}, 2500);
+	
 });

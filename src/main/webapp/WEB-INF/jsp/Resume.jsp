@@ -53,11 +53,11 @@
 
 </head>
 <body>
-	<div id="wrap">
+	<div class="wrapper">
 
 		<!-- NAVBAR -->
 
-		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="navbar navbar-accent navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -118,25 +118,25 @@
 			<div class="container progress-bar-container">
 				<div class="col-md-2">C#</div>
 				<div class="progress progress-striped active col-md-10">
-					<div id="csharp" class="progress-bar progress-bar-success"
+					<div id="csharp" class="progress-bar"
 						style="width: 0%"></div>
 					<span class="sr-only">60%</span>
 				</div>
 				<div class="col-md-2">Java</div>
 				<div class="progress progress-striped active col-md-10">
-					<div id="java" class="progress-bar progress-bar-danger"
+					<div id="java" class="progress-bar"
 						style="width: 0%"></div>
 					<span class="sr-only">40%</span>
 				</div>
 				<div class="col-md-2">Python</div>
 				<div class="progress progress-striped active col-md-10">
-					<div id="python" class="progress-bar progress-bar-warning"
+					<div id="python" class="progress-bar"
 						style="width: 0%"></div>
 					<span class="sr-only">50%</span>
 				</div>
 				<div class="col-md-2">JQuery</div>
 				<div class="progress progress-striped active col-md-10">
-					<div id="jquery" class="progress-bar progress-bar-info"
+					<div id="jquery" class="progress-bar"
 						style="width: 0%"></div>
 					<span class="sr-only">25%</span>
 				</div>
@@ -436,30 +436,30 @@
 					</div>
 					<div class="col-sm-4 center">
 						<a href="http://www.linkedin.com/pub/nate-jenson/5a/820/820/">
-							<i class="fa fa-linkedin-square fa-5x fa-inverse"></i>
+							<i class="fa fa-highlight fa-linkedin-square fa-5x fa-inverse"></i>
 						</a>
 					</div>
 					<div class="col-sm-4 center">
 						<a href="http://www.github.com/natejenson"> <i
-							class="fa fa-github-square fa-5x fa-inverse"></i>
+							class="fa fa-highlight fa-github-square fa-5x fa-inverse"></i>
 						</a>
 					</div>
 					<div class="col-sm-4 center">
 						<address>
 							<a href="mailto:nate.m.jenson@gmail.com" target="_blank"><i
-								class="fa fa-envelope-square fa-5x fa-inverse"></i></a>
+								class="fa fa-highlight fa-envelope-square fa-5x fa-inverse"></i></a>
 						</address>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<div id="push"></div>
+		<div class="push"></div>
 	</div>
-	<!-- /wrap -->
+	<!-- /wrapper -->
 
 	<!-- footer -->
-	<div id="footer">
+	<div class="footer">
 		<div class="container">
 			<p class="muted footerMsg">&copy; Nate Jenson 2015</p>
 		</div>

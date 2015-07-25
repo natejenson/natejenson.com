@@ -5,6 +5,27 @@ body {
 	font-size: 16px
 }
 
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-accent,
+.navbar-accent .navbar-nav > li > a:hover,
+.navbar-accent .navbar-nav > li > a:focus {
+	background-color: #3498db;
+	border: 0px;
+}
+
+.navbar-accent .navbar-nav > li > a {
+	color: #ecf0f1;
+}
+
+.navbar-accent .navbar-brand {
+	color: #ecf0f1;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
 /* CAROUSEL
 -------------------------------------------------- */
 
@@ -85,15 +106,29 @@ body {
 	transition: none !important;
 }
 
+
 /* Work
 -------------------------------------------------- */
+.timeline-panel {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.timeline-panel:hover {
+	background-color: #58ADE3;
+}
+
+/* Contact
+-------------------------------------------------- */
+
+.fa-highlight:hover {
+	color: #85c4Ed;
+}
 
 /* Featurettes 
 -------------------------------------------------- */
-.navbar-brand {
-	font-weight: bold;
-}
-
 section {
 	padding: 60px 0px;
 }
@@ -103,7 +138,7 @@ section {
 }
 
 .painted-accent {
-	background: #34495e;
+	background: #0665A2;
 }
 
 .painted-accent>div {
@@ -130,33 +165,18 @@ section {
 /* Footer
 -------------------------------------------------- */
 /* Wrapper for page content to push down footer */
-#wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	/* Negative indent footer by it's height */
-	margin: 0 auto -60px;
-}
 
-#push, #footer {
-	height: 60px;
-}
-
-#footer {
+.footer {
 	background-color: #f5f5ff;
 }
 
-@media ( max-width : 767px) {
-	#footer {
-		margin-left: 20px;
-		margin-right: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+.wrapper {
+	min-height: 100%;
+	/* negative value of the footer's height */
+	margin: 0 auto -60px; 
 }
-
-#wrap>.container {
-	padding-top: 60px;
+.footer, .push {
+	height: 60px; 
 }
 
 .container .footerMsg {
