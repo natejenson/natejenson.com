@@ -26,6 +26,15 @@ body {
 	font-weight: bold;
 }
 
+.navbar-accent .navbar-toggle {
+	background-color: #ecf0f1;
+	color: black;
+}
+
+.navbar-accent .navbar-toggle > .icon-bar {
+	background-color: #3498db;
+}
+
 /* CAROUSEL
 -------------------------------------------------- */
 

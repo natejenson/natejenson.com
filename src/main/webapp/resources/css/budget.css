@@ -63,4 +63,8 @@ td {
 	hr {
 		margin-bottom: 0px;
 	}
+	
+	#addRowButton {
+	   width: 200px;
+	}
 }
