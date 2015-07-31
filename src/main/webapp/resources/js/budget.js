@@ -59,8 +59,8 @@ $(function(){
 // Add a new expense row to the expense table
 function addExpenseRow(){
 	$('#expenseTable').append('<tr class="expenseRow">\
-			<td><input type="text" class="form-control expenseName" /></td>\
-			<td><input type="number"\
+			<td><input type="text" placeholder="expense name" class="form-control expenseName" /></td>\
+			<td><input type="number" placeholder="expense amount"\
 			class="form-control expenseValue" /></td>\
 			<td><select class="form-control expenseTime">\
 			<option value="day">Per Day</option>\
