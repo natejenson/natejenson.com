@@ -1,3 +1,6 @@
+html {
+	height: 100%;
+}
 body {
 	height: 100%;
 	padding-top: 50px;
@@ -175,19 +178,24 @@ section {
 -------------------------------------------------- */
 /* Wrapper for page content to push down footer */
 
-.footer {
-	background-color: #f5f5ff;
+
+footer {
+  bottom: 0;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #f5f5ff;
 }
 
+
 .wrapper {
-	min-height: 100%;
-	/* negative value of the footer's height */
-	margin: 0 auto -60px; 
-}
-.footer, .push {
-	height: 60px; 
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 0 0 60px;
+  position: relative;
 }
 
 .container .footerMsg {
-	margin: 20px 0;
+	margin: 20px; 0;
 }

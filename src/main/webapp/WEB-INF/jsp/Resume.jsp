@@ -453,18 +453,15 @@
 				</div>
 			</div>
 		</section>
-
-		<div class="push"></div>
-	</div>
-	<!-- /wrapper -->
-
-	<!-- footer -->
-	<div class="footer">
+			<!-- footer -->
+	<footer>
 		<div class="container">
 			<p class="muted footerMsg">&copy; Nate Jenson 2015</p>
 		</div>
+	</footer>
 	</div>
-	<!-- /footer -->
+	
+	<!-- /wrapper -->
 
 </body>
 </html>
