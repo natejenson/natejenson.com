@@ -86,16 +86,6 @@
 		<!-- BUDGET -->
 		<section id="budget-section" class="section painted-accent">
 			<div class="container">
-				<div class="alert alert-info alert-dismissible" role="alert">
-					<button type="button" class="close" data-dismiss="alert"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-					<strong>Heads up!</strong> This tool is still under construction.
-					If you have any issues, tips, or other feedback, feel free to <a
-						href="/#contact" class="alert-link">contact me</a>.
-				</div>
-
 				<div id="budget-panel" class="panel">
 					<div class="panel-heading">
 						<h3 class="panel-title">Budgeting Tool</h3>

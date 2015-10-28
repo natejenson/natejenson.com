@@ -4,8 +4,9 @@ html {
 body {
 	height: 100%;
 	padding-top: 50px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: #eee;
 }
 
 /* NAVBAR
@@ -13,16 +14,19 @@ body {
 .navbar-accent,
 .navbar-accent .navbar-nav > li > a:hover,
 .navbar-accent .navbar-nav > li > a:focus {
-	background-color: #3498db;
+	background-color: #1d2120;
 	border: 0px;
+	webkit-box-shadow: 0 8px 6px -6px #999;
+       -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 8px 6px -6px #999;
 }
 
 .navbar-accent .navbar-nav > li > a {
-	color: #ecf0f1;
+	color: #fff;
 }
 
 .navbar-accent .navbar-brand {
-	color: #ecf0f1;
+	color: #fff;
 }
 
 .navbar-brand {
@@ -30,12 +34,12 @@ body {
 }
 
 .navbar-accent .navbar-toggle {
-	background-color: #ecf0f1;
+	background-color: #fff;
 	color: black;
 }
 
 .navbar-accent .navbar-toggle > .icon-bar {
-	background-color: #3498db;
+	background-color: #1d2120;
 }
 
 /* CAROUSEL
@@ -55,20 +59,30 @@ body {
 
 /* HEADER
 -------------------------------------------------- */
-#header>.container {
-	z-index: 9;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 100%;
+.intro-header {
+	    background: url(../img/urbanstreet.jpg) no-repeat bottom center scroll;
+	    background-size: cover;
+	    padding: 60px 0;
 }
 
-#header h1 {
+.intro-message {
 	margin: 0;
+	text-align: center;
+}
+
+.intro-message {
+	color: #eee;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .9);
 	line-height: 1.25;
-	color: #fff;
-	font-weight: 900;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+.intro-message h2 {
+	font-weight: 500;
+}
+
+.intro-message h1 {
+	font-size: 120px;
+	font-weight: 500;
 }
 
 /* Responsive CSS 
@@ -82,6 +96,9 @@ body {
 	#media-carousel .carousel-inner>.item>img {
 		max-height: 275px;
 	}
+		#contact-links div {
+		padding: 8px 0;
+	}
 }
 
 /* Small */
@@ -89,9 +106,12 @@ body {
 	#header h1 {
 		font-size: 100px;
 	}
+	
+	#contact-links div {
+		padding: 8px 0;
+	}
 }
 
-}
 
 /* Medium */
 @media ( min-width :992px) and (max-width:1199px) {
@@ -113,6 +133,31 @@ body {
 	padding: 0;
 }
 
+.progress {
+    position: relative;
+	height: 25px;
+}
+
+.progress-bar {
+	background-color: rgba(186, 144, 119, .8) !important;
+}
+
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 500;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(186, 144, 119, 1);
+}
+
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 500;
+	padding: 3px 10px 2px;
+}
+
 .progress.active .progress-bar {
 	-webkit-transition: none !important;
 	transition: none !important;
@@ -129,14 +174,28 @@ body {
 }
 
 .timeline-panel:hover {
-	background-color: #58ADE3;
+	background-color: #ba9077;
+	font-color: #fff;
+}
+
+.education-timeline:before {
+	background-color: #1d2120 !important;
 }
 
 /* Contact
 -------------------------------------------------- */
 
 .fa-highlight:hover {
-	color: #85c4Ed;
+	color: #1d2120;
+}
+
+#contact {
+	color: #fff;
+	background-color: #5a5c51;
+}
+
+#contact-links {
+	padding-top: 30px;
 }
 
 /* Featurettes 
@@ -146,19 +205,19 @@ section {
 }
 
 .painted {
-	background: rgba(117, 117, 117, 0.2)
+	background: rgba(117, 117, 117, 0.2);
 }
 
 .painted-accent {
-	background: #0665A2;
+	background: #bcd5d1;
 }
 
 .painted-accent>div {
-	color: #fff;
+	color: #1d2120;
 }
 
 .painted-accent .text-muted {
-	color: #fff;
+	color: #1d2120;
 }
 
 .container:before, .container:after {
@@ -185,7 +244,7 @@ footer {
   left: 0;
   position: absolute;
   width: 100%;
-  background-color: #f5f5ff;
+  background-color: #ba9077;
 }
 
 

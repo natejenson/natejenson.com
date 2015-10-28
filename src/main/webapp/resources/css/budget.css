@@ -8,11 +8,11 @@
 }
 
 #budget-panel {
-	border-color: #3498db;
+	border-color: #ba9077;
 }
 
 #budget-panel > .panel-heading {
-	background-color: #3498db;
+	background-color: #ba9077;
 }
 
 .panel-title {
@@ -41,14 +41,14 @@ td {
 
 #addRowButton {
 	width: 400px;
-	background-color: #0f85d1;
+	background-color: #ba9077;
 	color: white;
-	border-color: #0f85d1;
+	border-color: #ba9077;
 }
 #addRowButton:hover {
-	background-color: #85C4ED;
+	background-color: #E5B293;
 	text-color: #0665A2
-	border-color: #85C4ED;
+	border-color: #E5B293;
 }
 
 /* Responsive CSS 

@@ -22,7 +22,7 @@
 <link
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 	rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,900,800'
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500'
 	rel='stylesheet' type='text/css'>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -56,7 +56,6 @@
 	<div class="wrapper">
 
 		<!-- NAVBAR -->
-
 		<div class="navbar navbar-accent navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -86,13 +85,19 @@
 
 		<!-- HEADER -->
 
-		<section id="header" class="painted-accent">
+		<div class="intro-header">
 			<div class="container">
-				<h2>Hello, I'm</h2>
-				<h1>Nate Jenson</h1>
-				<h2 id="descriptorLabel"></h2>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="intro-message">
+							<h2>Hello, I'm</h2>
+							<h1>Nate Jenson</h1>
+							<h2 id="descriptorLabel"></h2>
+						</div>
+					</div>
+				</div>
 			</div>
-		</section>
+		</div>
 
 		<!-- ABOUT -->
 
@@ -108,118 +113,41 @@
 						<p>My name is Nate Jenson and I enjoy brainstorming,
 							discovering, and developing solutions. I am a team-oriented
 							problem solver with a drive for success. My professional
-							interests are fueled by my passion for software engineering and my
-							desire to innovate. In my spare time, I enjoy sitting back to
+							interests are fueled by my passion for software engineering and
+							my desire to innovate. In my spare time, I enjoy sitting back to
 							watch a good documentary or lacing up my skates to play hockey.</p>
 					</div>
 				</div>
 			</div>
 			<br />
 			<div class="container progress-bar-container">
-				<div class="col-md-2">C#</div>
-				<div class="progress progress-striped active col-md-10">
-					<div id="csharp" class="progress-bar"
-						style="width: 0%"></div>
-					<span class="sr-only">60%</span>
+				<div class="progress col-md-12">
+					<div id="csharp" class="progress-bar" style="width: 0%"></div>
+					<span class="progress-type">C#</span>
+					<span class="progress-completed">80%</span>
 				</div>
-				<div class="col-md-2">Java</div>
-				<div class="progress progress-striped active col-md-10">
-					<div id="java" class="progress-bar"
-						style="width: 0%"></div>
-					<span class="sr-only">40%</span>
+				<div class="progress col-md-12">
+					<div id="java" class="progress-bar" style="width: 0%"></div>
+					<span class="progress-type">Java</span>
+					<span class="progress-completed">50%</span>
 				</div>
-				<div class="col-md-2">Python</div>
-				<div class="progress progress-striped active col-md-10">
-					<div id="python" class="progress-bar"
-						style="width: 0%"></div>
-					<span class="sr-only">50%</span>
+				<div class="progress col-md-12">
+					<div id="python" class="progress-bar" style="width: 0%"></div>
+					<span class="progress-type">Python</span>
+					<span class="progress-completed">40%</span>
 				</div>
-				<div class="col-md-2">JQuery</div>
-				<div class="progress progress-striped active col-md-10">
-					<div id="jquery" class="progress-bar"
-						style="width: 0%"></div>
-					<span class="sr-only">25%</span>
+				<div class="progress col-md-12">
+					<div id="jquery" class="progress-bar" style="width: 0%"></div>
+					<span class="progress-type">Javascript/JQuery</span>
+					<span class="progress-completed">60%</span>
 				</div>
 			</div>
 		</section>
 
-		<div class="col-sm-12 center">
-			<i class="fa fa-wifi fa-5x"></i>
-		</div>
-
-		<!-- Projects -->
-
-		<section id="projects">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="col-md-2">
-							<h1>Projects</h1>
-						</div>
-						<div class="col-md-10 text-right">
-							<h3 id="projectDescription"></h3>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-
-
-
-						<!-- CAROUSEL -->
-
-						<div id="media-carousel" class="carousel slide"
-							data-ride="carousel">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#media-carousel" data-slide-to="0"
-									class="active"></li>
-								<li data-target="#media-carousel" data-slide-to="1"></li>
-								<li data-target="#media-carousel" data-slide-to="2"></li>
-								<li data-target="#media-carousel" data-slide-to="3"></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="item active">
-									<img src="resources/img/suggestionForm.gif"
-										alt="Suggestion Form" /> <input type="hidden"
-										name="SuggestionForm"
-										value="Suggestion Form {Java Spring MVC}">
-								</div>
-								<div class="item">
-									<img src="resources/img/earthquakes.gif"
-										alt="Earthquake Mapper"> <input type="hidden"
-										name="EarthquakeMapper" value="Earthquake Mapper {Python}">
-								</div>
-								<div class="item">
-									<img src="resources/img/planets.gif" alt="Planets in Motion" />
-									<input type="hidden" name="Gravity"
-										value="Gravity Simulator {Java}">
-								</div>
-								<div class="item">
-									<img src="resources/img/calculator.gif" alt="Calculator App" />
-									<input type="hidden" name="Calculator"
-										value="Calculator {Android}">
-								</div>
-							</div>
-							<a class="left carousel-control" href="#media-carousel"
-								role="button" data-slide="prev"> <span
-								class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a> <a class="right carousel-control" href="#media-carousel"
-								role="button" data-slide="next"> <span
-								class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<hr />
 
 		<!-- WORK HISTORY -->
-
-		<section id="work-history" class="painted">
+		<section id="work-history" class="painted-accent">
 			<div class="container">
 				<div class="col-sm-12 center">
 					<i class="fa fa-group fa-5x"></i>
@@ -381,7 +309,7 @@
 				</div>
 			</div>
 			<div class="container">
-				<ul class="timeline">
+				<ul class="timeline education-timeline">
 					<li>
 						<div class="timeline-badge success">
 							<i class="glyphicon glyphicon-globe"></i>
@@ -427,40 +355,115 @@
 			</div>
 		</section>
 
-		<section id="contact" class="painted-accent">
+		<!-- Projects -->
+
+		<section id="projects">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-2">
+							<h1>Projects</h1>
+						</div>
+						<div class="col-md-10 text-right">
+							<h3 id="projectDescription"></h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+
+						<!-- CAROUSEL -->
+
+						<div id="media-carousel" class="carousel slide"
+							data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#media-carousel" data-slide-to="0"
+									class="active"></li>
+								<li data-target="#media-carousel" data-slide-to="1"></li>
+								<li data-target="#media-carousel" data-slide-to="2"></li>
+								<li data-target="#media-carousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="resources/img/suggestionForm.gif"
+										alt="Suggestion Form" /> <input type="hidden"
+										name="SuggestionForm"
+										value="Suggestion Form {Java Spring MVC}">
+								</div>
+								<div class="item">
+									<img src="resources/img/earthquakes.gif"
+										alt="Earthquake Mapper"> <input type="hidden"
+										name="EarthquakeMapper" value="Earthquake Mapper {Python}">
+								</div>
+								<div class="item">
+									<img src="resources/img/planets.gif" alt="Planets in Motion" />
+									<input type="hidden" name="Gravity"
+										value="Gravity Simulator {Java}">
+								</div>
+								<div class="item">
+									<img src="resources/img/calculator.gif" alt="Calculator App" />
+									<input type="hidden" name="Calculator"
+										value="Calculator {Android}">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#media-carousel"
+								role="button" data-slide="prev"> <span
+								class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a> <a class="right carousel-control" href="#media-carousel"
+								role="button" data-slide="next"> <span
+								class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTACT -->
+		<section id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 center">
 						<h1>Connect with me.</h1>
-						<br />
 					</div>
-					<div class="col-sm-4 center">
+				</div>
+				<div id="contact-links" class="row">
+					<div class="col-sm-3 center">
 						<a href="http://www.linkedin.com/pub/nate-jenson/5a/820/820/">
-							<i class="fa fa-highlight fa-linkedin-square fa-5x fa-inverse"></i>
+							<i class="fa fa-highlight fa-linkedin fa-5x fa-inverse"></i>
 						</a>
 					</div>
-					<div class="col-sm-4 center">
+					<div class="col-sm-3 center">
+						<a href="http://stackoverflow.com/users/2329708/njenson"> <i
+							class="fa fa-highlight fa-stack-overflow fa-5x fa-inverse"></i>
+						</a>
+					</div>
+					<div class="col-sm-3 center">
 						<a href="http://www.github.com/natejenson"> <i
-							class="fa fa-highlight fa-github-square fa-5x fa-inverse"></i>
+							class="fa fa-highlight fa-github fa-5x fa-inverse"></i>
 						</a>
 					</div>
-					<div class="col-sm-4 center">
+					<div class="col-sm-3 center">
 						<address>
 							<a href="mailto:nate.m.jenson@gmail.com" target="_blank"><i
-								class="fa fa-highlight fa-envelope-square fa-5x fa-inverse"></i></a>
+								class="fa fa-highlight fa-envelope fa-5x fa-inverse"></i></a>
 						</address>
 					</div>
 				</div>
 			</div>
 		</section>
-			<!-- footer -->
-	<footer>
-		<div class="container">
-			<p class="muted footerMsg">&copy; Nate Jenson 2015</p>
-		</div>
-	</footer>
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<p class="muted footerMsg">&copy; Nate Jenson 2015</p>
+			</div>
+		</footer>
 	</div>
-	
+
 	<!-- /wrapper -->
 
 </body>
