@@ -89,24 +89,21 @@ body {
 ---------------------------------------------*/
 
 /* Extra Small */
-@media ( max-width :767px) {
-	#header h1 {
-		font-size: 80px;
+@media (max-width :767px) {
+	.intro-message h1 {
+		font-size: 60px;
 	}
-	#media-carousel .carousel-inner>.item>img {
-		max-height: 275px;
-	}
-		#contact-links div {
+	#contact-links div {
 		padding: 8px 0;
 	}
+	
 }
 
 /* Small */
-@media ( min-width :768px) and (max-width:991px) {
-	#header h1 {
+@media (min-width :768px) and (max-width:991px) {
+	.intro-message h1 {
 		font-size: 100px;
-	}
-	
+	}	
 	#contact-links div {
 		padding: 8px 0;
 	}

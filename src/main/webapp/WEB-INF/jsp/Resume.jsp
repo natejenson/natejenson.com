@@ -111,8 +111,7 @@
 					<div class="col-md-10">
 						<h1>About Me</h1>
 						<p>My name is Nate Jenson and I enjoy brainstorming,
-							discovering, and developing solutions. I am a team-oriented
-							problem solver with a drive for success. My professional
+							discovering, and developing solutions. My professional
 							interests are fueled by my passion for software engineering and
 							my desire to innovate. In my spare time, I enjoy sitting back to
 							watch a good documentary or lacing up my skates to play hockey.</p>
@@ -127,13 +126,13 @@
 					<span class="progress-completed">80%</span>
 				</div>
 				<div class="progress col-md-12">
-					<div id="java" class="progress-bar" style="width: 0%"></div>
-					<span class="progress-type">Java</span>
-					<span class="progress-completed">50%</span>
-				</div>
-				<div class="progress col-md-12">
 					<div id="python" class="progress-bar" style="width: 0%"></div>
 					<span class="progress-type">Python</span>
+					<span class="progress-completed">55%</span>
+				</div>
+				<div class="progress col-md-12">
+					<div id="java" class="progress-bar" style="width: 0%"></div>
+					<span class="progress-type">Java</span>
 					<span class="progress-completed">40%</span>
 				</div>
 				<div class="progress col-md-12">

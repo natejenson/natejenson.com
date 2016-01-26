@@ -15,17 +15,17 @@ $(document).ready(function(){
 		width: "80%"
 	}, 2500);
 	$("#java").animate({
-		width: "50%"
+		width: "40%"
 	}, 2500);
 	$("#python").animate({
-		width: "40%"
+		width: "50%"
 	}, 2500);
 	$("#jquery").animate({
 		width: "60%"
 	}, 2500);
 	
 	// Cycle through descriptors
-	var descriptors = ["Sofware Developer","Collaborator","Problem Solver","Optimist"]
+	var descriptors = ["Sofware Engineer","Collaborator","Problem Solver","Optimist"]
 	$('#descriptorLabel').text(descriptors[0]);
 	setInterval(changeDescriptor,3000);
 
