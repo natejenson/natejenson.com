@@ -25,7 +25,7 @@ $(document).ready(function(){
 	}, 2500);
 	
 	// Cycle through descriptors
-	var descriptors = ["Sofware Engineer","Collaborator","Problem Solver","Optimist"]
+	var descriptors = ["Software Engineer","Collaborator","Problem Solver","Optimist"]
 	$('#descriptorLabel').text(descriptors[0]);
 	setInterval(changeDescriptor,3000);
 
