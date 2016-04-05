@@ -6,7 +6,15 @@ body {
 	padding-top: 50px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	background-color: #eee;
+	background-color: #bfaf80;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.circle-border{
+    width: inherit;
+    margin: 10px;
+    border: 5px solid #eee;
 }
 
 /* NAVBAR
@@ -14,7 +22,7 @@ body {
 .navbar-accent,
 .navbar-accent .navbar-nav > li > a:hover,
 .navbar-accent .navbar-nav > li > a:focus {
-	background-color: #1d2120;
+	background-color: #260126;
 	border: 0px;
 	webkit-box-shadow: 0 8px 6px -6px #999;
        -moz-box-shadow: 0 8px 6px -6px #999;
@@ -42,25 +50,10 @@ body {
 	background-color: #1d2120;
 }
 
-/* CAROUSEL
--------------------------------------------------- */
-
-#media-carousel .carousel-inner>.item>img {
-	width: auto;
-	max-height: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	height: 500px;
-}
-
-.black {
-	color: #000;
-}
-
 /* HEADER
 -------------------------------------------------- */
 .intro-header {
-	    background: url(../img/urbanstreet.jpg) no-repeat bottom center scroll;
+	    background: url(../img/desk.jpg) no-repeat center scroll;
 	    background-size: cover;
 	    padding: 60px 0;
 }
@@ -136,7 +129,7 @@ body {
 }
 
 .progress-bar {
-	background-color: rgba(186, 144, 119, .8) !important;
+	background-color: rgba(89, 50, 60, .8) !important;
 }
 
 .progress > .progress-type {
@@ -145,7 +138,7 @@ body {
 	font-weight: 500;
 	padding: 3px 30px 2px 10px;
 	color: rgb(255, 255, 255);
-	background-color: rgba(186, 144, 119, 1);
+	background-color: rgba(89, 50, 60, 1);
 }
 
 .progress > .progress-completed {
@@ -171,8 +164,7 @@ body {
 }
 
 .timeline-panel:hover {
-	background-color: #ba9077;
-	font-color: #fff;
+	background-color: #fff;
 }
 
 .education-timeline:before {
@@ -188,7 +180,7 @@ body {
 
 #contact {
 	color: #fff;
-	background-color: #5a5c51;
+	background-color: #8C6954;
 }
 
 #contact-links {
@@ -206,7 +198,7 @@ section {
 }
 
 .painted-accent {
-	background: #bcd5d1;
+	background: #f2eeb3;
 }
 
 .painted-accent>div {
@@ -235,23 +227,9 @@ section {
 /* Wrapper for page content to push down footer */
 
 
-footer {
-  bottom: 0;
-  height: 60px;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  background-color: #ba9077;
-}
-
-
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
   padding: 0 0 60px;
   position: relative;
-}
-
-.container .footerMsg {
-	margin: 20px; 0;
 }

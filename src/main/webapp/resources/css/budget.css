@@ -5,6 +5,7 @@
 
 .panel-footer {
 	padding: 10px 70px;
+	border: 1px solid #59323C;
 }
 
 #budget-panel {
@@ -12,11 +13,10 @@
 }
 
 #budget-panel > .panel-heading {
-	background-color: #ba9077;
+	background-color: #59323C;
 }
 
 .panel-title {
-	font-weight: bold;
 	color: white;
 }
 

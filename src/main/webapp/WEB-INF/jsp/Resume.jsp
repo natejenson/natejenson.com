@@ -1,37 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="resources/img/favicon.png" />
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<!-- Bootstrap -->
-<script src="resources/js/bootstrap.min.js"></script>
-<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+<%@include file="masterHead.jsp"%>
 
 <!-- Custom JS -->
 <script src="resources/js/scroll.js"></script>
 <script src="resources/js/resume.js"></script>
 
 <!-- Custom styles -->
-<link href="resources/css/style.css" rel="stylesheet">
 <link href="resources/css/timeline.css" rel="stylesheet">
-<link
-	href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-	rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,500'
-	rel='stylesheet' type='text/css'>
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-<title>Nate M. Jenson</title>
 
 <!-- Google Analytics -->
 <script>
@@ -54,34 +32,8 @@
 </head>
 <body>
 	<div class="wrapper">
-
-		<!-- NAVBAR -->
-		<div class="navbar navbar-accent navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span> <span
-							class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/">NMJ</a>
-				</div>
-
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-left">
-						<li><a href="#about">About</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="budget">Budget</a></li>
-						<li><a href="travel">Travel</a></li>
-					</ul>
-				</div>
-				<!--/.nav-collapse -->
-			</div>
-		</div>
+	
+		<%@include file="navbar.jsp"%>
 
 		<!-- HEADER -->
 
@@ -105,16 +57,14 @@
 			<div class="container">
 				<div class="row">
 					<div class=col-md-2>
-						<img class="img-circle" src="resources/img/headshot.jpg"
+						<img class="img-circle circle-border grow" src="resources/img/headshot.jpg"
 							alt="Nate Jenson" style="width: 140px; height: 140px;">
 					</div>
 					<div class="col-md-10">
 						<h1>About Me</h1>
-						<p>My name is Nate Jenson and I enjoy brainstorming,
-							discovering, and developing solutions. My professional
-							interests are fueled by my passion for software engineering and
-							my desire to innovate. In my spare time, I enjoy sitting back to
-							watch a good documentary or lacing up my skates to play hockey.</p>
+						<p>I'm a full stack developer that enjoys brainstorming,
+							discovering, and developing solutions. Simply put, I have a passion for solving problems that software allows me to fulfill in innovative ways. In my spare time, I enjoy sitting back to watch a
+							good documentary or lacing up my skates to play hockey.</p>
 					</div>
 				</div>
 			</div>
@@ -122,28 +72,26 @@
 			<div class="container progress-bar-container">
 				<div class="progress col-md-12">
 					<div id="csharp" class="progress-bar" style="width: 0%"></div>
-					<span class="progress-type">C#</span>
-					<span class="progress-completed">80%</span>
+					<span class="progress-type">C#</span> <span
+						class="progress-completed">80%</span>
 				</div>
 				<div class="progress col-md-12">
 					<div id="python" class="progress-bar" style="width: 0%"></div>
-					<span class="progress-type">Python</span>
-					<span class="progress-completed">55%</span>
+					<span class="progress-type">Python</span> <span
+						class="progress-completed">55%</span>
 				</div>
 				<div class="progress col-md-12">
 					<div id="java" class="progress-bar" style="width: 0%"></div>
-					<span class="progress-type">Java</span>
-					<span class="progress-completed">40%</span>
+					<span class="progress-type">Java</span> <span
+						class="progress-completed">40%</span>
 				</div>
 				<div class="progress col-md-12">
 					<div id="jquery" class="progress-bar" style="width: 0%"></div>
-					<span class="progress-type">Javascript/JQuery</span>
-					<span class="progress-completed">60%</span>
+					<span class="progress-type">Javascript/JQuery</span> <span
+						class="progress-completed">60%</span>
 				</div>
 			</div>
 		</section>
-
-		<hr />
 
 		<!-- WORK HISTORY -->
 		<section id="work-history" class="painted-accent">
@@ -335,90 +283,7 @@
 							</div>
 						</div>
 					</li>
-					<li class="timeline-inverted">
-						<div class="timeline-badge warning">
-							<i class="glyphicon glyphicon-book"></i>
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4 class="timeline-title">High School Diploma</h4>
-								<p>
-									<small><i class="glyphicon glyphicon-time"></i> Sauk
-										Rapids-Rice High School, MN &middot; May 2011 </small>
-								</p>
-							</div>
-							<div class="timeline-body"></div>
-						</div>
-					</li>
 				</ul>
-			</div>
-		</section>
-
-		<!-- Projects -->
-
-		<section id="projects">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="col-md-2">
-							<h1>Projects</h1>
-						</div>
-						<div class="col-md-10 text-right">
-							<h3 id="projectDescription"></h3>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-
-						<!-- CAROUSEL -->
-
-						<div id="media-carousel" class="carousel slide"
-							data-ride="carousel">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#media-carousel" data-slide-to="0"
-									class="active"></li>
-								<li data-target="#media-carousel" data-slide-to="1"></li>
-								<li data-target="#media-carousel" data-slide-to="2"></li>
-								<li data-target="#media-carousel" data-slide-to="3"></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="item active">
-									<img src="resources/img/suggestionForm.gif"
-										alt="Suggestion Form" /> <input type="hidden"
-										name="SuggestionForm"
-										value="Suggestion Form {Java Spring MVC}">
-								</div>
-								<div class="item">
-									<img src="resources/img/earthquakes.gif"
-										alt="Earthquake Mapper"> <input type="hidden"
-										name="EarthquakeMapper" value="Earthquake Mapper {Python}">
-								</div>
-								<div class="item">
-									<img src="resources/img/planets.gif" alt="Planets in Motion" />
-									<input type="hidden" name="Gravity"
-										value="Gravity Simulator {Java}">
-								</div>
-								<div class="item">
-									<img src="resources/img/calculator.gif" alt="Calculator App" />
-									<input type="hidden" name="Calculator"
-										value="Calculator {Android}">
-								</div>
-							</div>
-							<a class="left carousel-control" href="#media-carousel"
-								role="button" data-slide="prev"> <span
-								class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a> <a class="right carousel-control" href="#media-carousel"
-								role="button" data-slide="next"> <span
-								class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</section>
 
@@ -433,34 +298,28 @@
 				<div id="contact-links" class="row">
 					<div class="col-sm-3 center">
 						<a href="http://www.linkedin.com/pub/nate-jenson/5a/820/820/">
-							<i class="fa fa-highlight fa-linkedin fa-5x fa-inverse"></i>
+							<i class="fa fa-highlight fa-linkedin fa-5x fa-inverse grow"></i>
 						</a>
 					</div>
 					<div class="col-sm-3 center">
 						<a href="http://stackoverflow.com/users/2329708/njenson"> <i
-							class="fa fa-highlight fa-stack-overflow fa-5x fa-inverse"></i>
+							class="fa fa-highlight fa-stack-overflow fa-5x fa-inverse grow"></i>
 						</a>
 					</div>
 					<div class="col-sm-3 center">
 						<a href="http://www.github.com/natejenson"> <i
-							class="fa fa-highlight fa-github fa-5x fa-inverse"></i>
+							class="fa fa-highlight fa-github fa-5x fa-inverse grow"></i>
 						</a>
 					</div>
 					<div class="col-sm-3 center">
 						<address>
 							<a href="mailto:nate.m.jenson@gmail.com" target="_blank"><i
-								class="fa fa-highlight fa-envelope fa-5x fa-inverse"></i></a>
+								class="fa fa-highlight fa-envelope fa-5x fa-inverse grow"></i></a>
 						</address>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- footer -->
-		<footer>
-			<div class="container">
-				<p class="muted footerMsg">&copy; Nate Jenson 2015</p>
-			</div>
-		</footer>
 	</div>
 
 	<!-- /wrapper -->

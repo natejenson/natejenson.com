@@ -36,7 +36,7 @@ function initialize() {
 	var markerCAN = new google.maps.Marker({
 		position: new google.maps.LatLng(50.660225, -94.434688),
 		map: map,
-		title: 'Canada' 
+		title: 'Sydney Lake, Canada' 
 	});
 	var markerJAM = new google.maps.Marker({
 		position: new google.maps.LatLng(18.467229, -77.896886),
@@ -92,6 +92,11 @@ function initialize() {
 		position: new google.maps.LatLng(48.057541, 11.631868),
 		map: map,
 		title: 'Munich, Germany' 
+	});
+	var markerWinnipeg = new google.maps.Marker({
+		position: new google.maps.LatLng(49.894432, -97.138283),
+		map: map,
+		title: 'Winnipeg, Manitoba' 
 	});
 }
 
