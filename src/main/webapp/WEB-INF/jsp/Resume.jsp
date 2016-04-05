@@ -57,7 +57,7 @@
 			<div class="container">
 				<div class="row">
 					<div class=col-md-2>
-						<img class="img-circle circle-border grow" src="resources/img/headshot.jpg"
+						<img class="img-circle circle-border grow" src="resources/img/headshot2.png"
 							alt="Nate Jenson" style="width: 140px; height: 140px;">
 					</div>
 					<div class="col-md-10">
