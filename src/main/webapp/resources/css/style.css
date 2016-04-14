@@ -167,6 +167,14 @@ body {
 	background-color: #fff;
 }
 
+hr {
+	border-color: #260126;
+}
+
+.work-timeline:before {
+	background-color: #1d2120 !important;
+}
+
 .education-timeline:before {
 	background-color: #1d2120 !important;
 }

@@ -106,18 +106,19 @@
 				</div>
 			</div>
 			<div class="container">
-				<ul class="timeline">
+				<ul class="timeline work-timeline">
 					<li>
 						<div class="timeline-badge info">
 							<i class="glyphicon glyphicon-briefcase"></i>
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h3 class="timeline-title">Associate Software Developer</h3>
+								<h3 class="timeline-title">Software Developer</h3>
 								<p>
 									<small><i class="glyphicon glyphicon-time"></i> Proto
 										Labs, Inc. &middot; Jun 2015 - Now</small>
 								</p>
+								<small><i class="glyphicon glyphicon-ok-circle"></i> Associate Software Developer (Jun&nbsp;2015&nbsp;-&nbsp;Apr&nbsp;2016)</small>
 							</div>
 							<hr />
 							<div class="timeline-body">
@@ -125,10 +126,10 @@
 									<li>Participate in problem analysis with business users
 										and assist in determining software solutions and enhancements.
 									</li>
-									<li>Enhancing our order management, ecommerce, CRM, and
-										intranet manufacturing applications.</li>
+									<li>Enhance our customer facing e-commerce sites and
+										internal manufacturing applications.</li>
 									<li>Provide maintenance break/fix support for the internal
-										websites and triage support issues to other areas of
+										applications and triage support issues to other areas of
 										development.</li>
 									<li>Technologies: C#, ASP.NET, SQL Server, JQuery, Visual
 										Studio, Git</li>
