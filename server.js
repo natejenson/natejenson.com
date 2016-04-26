@@ -8,6 +8,6 @@ app.use('/', require('./routes/home'))
 app.use('/budget', require('./routes/budget'))
 app.use('/travel', require('./routes/travel'))
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('App listening on port 3000...');
 });
