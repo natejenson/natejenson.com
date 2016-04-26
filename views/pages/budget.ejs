@@ -24,7 +24,7 @@
 					</div>
 					<div class="panel-body">
 						<div class="row">
-							<div class="col-sm-6">
+							<div class="col-sm-12">
 								<strong class="col-xs-12 section-title">Income</strong>
 								<div class="row center">
 									<div>
@@ -45,20 +45,6 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6">
-								<strong class="col-xs-12 section-title">Budget Length</strong>
-								<div class="row center">
-									<div>
-										<div>
-											<select id="budget-selector" class="form-control">
-												<option value="day">Daily</option>
-												<option value="week">Weekly</option>
-												<option selected value="month">Monthly</option>
-											</select>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 						<hr />
 
@@ -69,7 +55,7 @@
 						<div class="row">
 							<table id="expenseTable" class="table table-condensed">
 								<tbody>
-
+                    <!-- dynamically added -->
 								</tbody>
 							</table>
 						</div>
@@ -85,9 +71,13 @@
 					<div class="panel-footer pull-right">
 						<div class="row">
 							<div class=".col-xs-2">
-								<i class="glyphicon glyphicon-usd"></i> <input readonly
-									id="budgetTotal" type="number" value="0" /> <span
-									id="budgetLabel">Daily</span>
+								<i class="glyphicon glyphicon-usd"></i>
+                <input readonly id="budgetTotal" type="number" value="0" />
+                <select id="budget-selector" class="form-control">
+                  <option value="day">Daily</option>
+                  <option value="week">Weekly</option>
+                  <option selected value="month">Monthly</option>
+                </select>
 							</div>
 						</div>
 					</div>

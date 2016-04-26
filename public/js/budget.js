@@ -3,7 +3,7 @@ $(function(){
 	//
 	// Initialize form w/ example row
 	//
-	
+
 	$('.incomeValue').val(40000);
 	addExpenseRow();
 	$('.expenseName').val("expense #1");
@@ -14,13 +14,10 @@ $(function(){
 	//
 	//Set event handlers and initial values.
 	//
-	
+
 	// Handle budget and income length selector changes
 	$('#budget-selector, #income-selector').change(function(){
 		updateBudget();
-		if($(this).is($('#budget-selector'))){
-			$('#budgetLabel').text($('#budget-selector option:selected').text());
-		}
 	});
 
 	// Handle the add row button
@@ -39,7 +36,7 @@ $(function(){
 			return false;
 		}
 	});
-	
+
 	// Remove row & update budget
 	$(document).on('click','.btn-remove', function(e){
 		var $tr = $(this).closest('tr');
