@@ -15,6 +15,7 @@ function initMap() {
 
 	var locations = [
 		['Minneapolis, Minnesota', 44.980717, -93.252126],
+		['Winnipeg, Manitoba', 49.890801, -97.130774],
 		['Milwaukee, Wisconsin', 43.0500, -87.9500],
 		['Frankfurt, Germany', 50.108883, 8.672956],
 		['Innsbruck, Austria', 47.266820, 11.397673],
