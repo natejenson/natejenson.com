@@ -119,6 +119,11 @@ body {
 
 /* About
 -------------------------------------------------- */
+#headshot-img {
+	display: block;
+	margin: auto;
+}
+
 .progress-bar-container>.progress {
 	padding: 0;
 }
