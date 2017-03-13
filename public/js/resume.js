@@ -1,17 +1,20 @@
 function animateSkillBars(){
 	// Set skill bar levels
 	$("#csharp").animate({
-		width: "80%"
+		width: "90%"
 	}, 2500);
 	$("#java").animate({
 		width: "40%"
 	}, 2500);
 	$("#python").animate({
-		width: "50%"
-	}, 2500);
-	$("#jquery").animate({
 		width: "60%"
+	}, 2500);
+	$("#sql").animate({
+		width: "65%"
 	}, 2500);	
+	$("#go").animate({
+		width: "20%"
+	}, 2500);
 }
 
 $(document).ready(function(){
