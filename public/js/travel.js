@@ -32,7 +32,11 @@ function initMap() {
 		['Boundary Waters Canoe Area, Minnesota', 47.881536, -90.888649],
 		['Munich, Germany', 48.057541, 11.631868],
 		['Denver, Colorado', 39.733322, -104.992370],
-		['Rocky Mountain National Park', 40.329900, -105.704635]
+		['Rocky Mountain National Park', 40.329900, -105.704635],
+		['Mountain View, California', 37.389767, -122.083499],
+		['Reykjavík, Iceland', 64.123822, -21.821480],
+		['London, United Kingdom', 51.520014, -0.128384],
+		['London, United Kingdom', 37.764736, -122.414599]
 	];
 
 	
