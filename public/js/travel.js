@@ -36,7 +36,8 @@ function initMap() {
 		['Mountain View, California', 37.389767, -122.083499],
 		['Reykjavík, Iceland', 64.123822, -21.821480],
 		['London, United Kingdom', 51.520014, -0.128384],
-		['London, United Kingdom', 37.764736, -122.414599]
+		['San Francisco, California', 37.764736, -122.414599],
+		['Dublin, Ireland', 53.345559, -6.271116]
 	];
 
 	
