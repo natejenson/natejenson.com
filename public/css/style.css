@@ -6,7 +6,7 @@ body {
 	padding-top: 50px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	background-color: #bfaf80;
+	background-color: #bdc3c7;
 }
 
 .grow { transition: all .2s ease-in-out; }
@@ -165,11 +165,19 @@ body {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.work-timeline > li > .timeline-panel {
+	background-color: #bdc3c7;	
+}
+
+.education-timeline > li > .timeline-panel {
+	background-color: #ecf0f1;	
 }
 
 .timeline-panel:hover {
-	background-color: #fff;
+	background-color: #fff !important;
 }
 
 hr {
@@ -192,8 +200,8 @@ hr {
 }
 
 #contact {
-	color: #fff;
-	background-color: #8C6954;
+	color: #1d2120;
+	background-color: #bdc3c7;
 }
 
 #contact-links {
@@ -211,7 +219,7 @@ section {
 }
 
 .painted-accent {
-	background: #f2eeb3;
+	background: #ecf0f1;
 }
 
 .painted-accent>div {
