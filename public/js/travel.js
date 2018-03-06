@@ -37,7 +37,9 @@ function initMap() {
 		['Reykjavík, Iceland', 64.123822, -21.821480],
 		['London, United Kingdom', 51.520014, -0.128384],
 		['San Francisco, California', 37.764736, -122.414599],
-		['Dublin, Ireland', 53.345559, -6.271116]
+		['Dublin, Ireland', 53.345559, -6.271116],
+		['Austin, Texas', 30.253134, -97.739677],
+		['New Orleans, Lousiana', 29.951409, -90.069641]
 	];
 
 	
