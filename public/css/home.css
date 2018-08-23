@@ -32,6 +32,8 @@ body {
 }
 
 .resume-img {
+    display: block;
+    margin: auto;
     width: 150px;
 }
 
@@ -48,25 +50,3 @@ body {
     padding-left: 1rem;
     text-align: left !important;
 }
-
-
-/* .header { 
-    grid-area: h; 
-    text-align: center;
-}
-.main { grid-area: m; }
-footer { grid-area: f; }
-
-.grid-container {
-    display: grid;
-    grid-auto-rows: 50px;
-    grid-template-rows: 40px 100px 50px 1fr;
-    grid-row-gap: 40px;
-    grid-template-areas:
-        ". h h h ."
-        ". m m m ."
-        ". m m m ."
-        ". m m m ."
-        ". m m m ."
-        ". f f f ."
-} */
