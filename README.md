@@ -3,4 +3,4 @@ My personal website. Built on Node.js and Express; styled with [Bootstrap](http:
 
 
 ### local run
-Clone the repo and run `docker-compose up`. The app will be running on `http://localhost:3000`
+Clone the repo and run `docker compose up`. The app will be running on `http://localhost:3000`
