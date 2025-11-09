@@ -1,6 +1,4 @@
 # natejenson.com
-My personal website. Built on Node.js and Express; styled with [Bootstrap](http://getbootstrap.com/). Containerized with [Docker](https://www.docker.com/) and hosted on [Heroku](https://www.heroku.com/).
+My personal website. This used to be over-engineered for the fun of it. Now with experience comes wisdom: Only static HTML and CSS. Nothing fancy!
 
-
-### local run
-Clone the repo and run `docker compose up`. The app will be running on `http://localhost:3000`
+*(Disclaimer: I reserve the right to totally over-engineer this again in the future)*
